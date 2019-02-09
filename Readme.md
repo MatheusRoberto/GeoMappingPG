@@ -89,6 +89,6 @@ python mappingAnuncio.py
 ____
 
 ## Autores
-* [Matheus Roberto](https://github.com/MatheusRoberto)<matheroberto@gmail.com>
-* [Pedro Magnus](https://github.com/magnuspedro)<pmp.magnus@gmail.com>
+* [Matheus Roberto](https://github.com/MatheusRoberto) <matheroberto@gmail.com>
+* [Pedro Magnus](https://github.com/magnuspedro) <pmp.magnus@gmail.com>
 
