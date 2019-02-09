@@ -9,7 +9,8 @@ from fuzzywuzzy import fuzz
 session = HTMLSession()
 
 anuncios = []
-logradouros = [] 
+logradouros = []
+
 
 class Anuncio:
     def __init__(self, end, rua, numero, bairro, cidade, valor, endMath, link):
@@ -26,7 +27,8 @@ class Anuncio:
         self.link = link
 
     def toJSON(self):
-        return json.dumps(self, ensure_ascii=False, default=lambda o: o.__dict__,sort_keys=True, indent=4)
+        return json.dumps(self, ensure_ascii=False, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+
 
 def valorAnuncio(preco):
     resultado = regex.findall('(?:[1-9](?:[\d]{0,2}(?:\.[\d]{3})*|[\d]+)|0)(?:,[\d]{0,2})?', preco)
@@ -38,6 +40,7 @@ def valorAnuncio(preco):
         value = value.replace(',', '.')
         x.append(float(value))
     return max(x, key=float)
+
 
 def estruturandoEndereco(endereco):
 
@@ -54,22 +57,26 @@ def estruturandoEndereco(endereco):
         rua = endereco.split('-')
         return (rua[0], 0, bairro, "Ponta Grossa/PR")
 
+
 def rmBairroCidade(endereco):
     return regex.sub('(\w*? )*(\w*)(, )(Ponta Grossa, PR)', '', endereco)
 
+
 def carregaLogradouros():
-    with open('./files/logradouros.txt', 'r', encoding = "ISO-8859-1") as f:
+    with open('./files/logradouros.txt', 'r', encoding="ISO-8859-1") as f:
         for line in f:
             logradouros.append(line)
+
 
 def listLogradouros():
     for rua in logradouros:
         print(rua)
 
+
 def buscaRuaPG(endEncontrado):
 
     if "Ponta Grossa, PR" not in endEncontrado:
-        return (0, "") 
+        return (0, "")
 
     ruaEncontrada = rmBairroCidade(endEncontrado)
     if not ruaEncontrada:
@@ -79,7 +86,7 @@ def buscaRuaPG(endEncontrado):
     fuzz.SequenceMatcher = difflib.SequenceMatcher
     for rua in logradouros:
         pontuacao.append(fuzz.ratio(ruaEncontrada, str(rua)))
-    
+
     n_max = max(pontuacao, key=int)
     n_pos = pontuacao.index(n_max)
     #print("Maior valor: %d" % n_max)
@@ -87,20 +94,24 @@ def buscaRuaPG(endEncontrado):
     #print("Rua: %s" % logradouros[n_pos])
     #print("Rua encontrada: %s" % endEncontrado)
 
-    #print("-----------------------------")
+    # print("-----------------------------")
 
     return (n_max, logradouros[n_pos])
+
 
 def imovel(i, j):
     while (i <= j):
 
         r = session.get(f"https://procureimovel.com.br/venda/ponta-grossa-pr?fin=venda&t=&st=&cidade=ponta-grossa-pr&vMin=&vMax=&dts=&vagas=&ad=&o=0&page={i}")
- 
+
         data = r.html.absolute_links
- 
-        #print(data)
+
+        # print(data)
         for d in data:
-            re = session.get(d)
+            try:
+                re = session.get(d)
+            except Exception as e:
+                print(f"Link: {d}\n Error: {e}")
 
             end = re.html.find('.listing-address', first=True)
             preco = re.html.find('.property-price', first=True)
@@ -112,11 +123,12 @@ def imovel(i, j):
                 if pont >= 40 and precoAnuncio > 0:
                     (rua, numero, bairro, cidade) = estruturandoEndereco(end.text)
                     anuncio = Anuncio(end.text, rua, numero,
-                     bairro, cidade, precoAnuncio, endMatch, d)
+                                      bairro, cidade, precoAnuncio, endMatch, d)
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
             i += 12
     print(i)
+
 
 def main(npag):
 
@@ -125,9 +137,9 @@ def main(npag):
     n = int(npag / 4)
 
     thread1 = threading.Thread(target=imovel, args=(1, n))
-    thread2 = threading.Thread(target=imovel, args=(n+1, 2*n))
-    thread3 = threading.Thread(target=imovel, args=(2*n+1, 3*n))
-    thread4 = threading.Thread(target=imovel, args=(3*n+1, 4*n))
+    thread2 = threading.Thread(target=imovel, args=(n + 1, 2 * n))
+    thread3 = threading.Thread(target=imovel, args=(2 * n + 1, 3 * n))
+    thread4 = threading.Thread(target=imovel, args=(3 * n + 1, 4 * n))
 
     thread1.start()
     thread2.start()

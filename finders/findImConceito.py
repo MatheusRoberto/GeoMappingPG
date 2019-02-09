@@ -22,9 +22,9 @@ class Anuncio:
         self.data = '{:%d/%m/%Y}'.format(now)
         if numero != 0:
             self.numero = numero
-            self.endereco = rua + ', '+numero+' - '+bairro+' - '+cidade
+            self.endereco = rua + ', ' + numero + ' - ' + bairro + ' - ' + cidade
         else:
-            self.endereco = rua + ' - '+bairro+' - '+cidade
+            self.endereco = rua + ' - ' + bairro + ' - ' + cidade
         self.enderecoMatch = endMath
         self.link = link
         self.enderecoSite = end
@@ -105,7 +105,7 @@ def buscaRuaPG(endEncontrado):
     #print("Rua: %s" % logradouros[n_pos])
     #print("Rua encontrada: %s" % endEncontrado)
 
-    #print("-----------------------------")
+    # print("-----------------------------")
 
     return (n_max, logradouros[n_pos])
 
@@ -122,12 +122,18 @@ def imovel(i, j):
             if d == 'tel:+554230251818':
                 continue
 
-            re = session.get(d)
+            try:
+                re = session.get(d)
+            except Exception as e:
+                print(f"Link: {d}\n Error: {e}")
 
-            end = re.html.find('.imovelTitle .fa', first=True)
-            preco = re.html.find('.price', first=True)
-            if end is None:
-                print("erro")
+            try:
+                end = re.html.find('.imovelTitle .fa', first=True)
+                preco = re.html.find('.price', first=True)
+                if end is None:
+                    print("erro")
+            except Exception as e:
+                print(f"Link: {d}\n Error: {e}")
 
      #       print(d)
             if end and preco:
@@ -144,6 +150,7 @@ def imovel(i, j):
     # print(r.status_code)
     print(i)
 
+
 def main(npag):
 
     carregaLogradouros()
@@ -151,9 +158,9 @@ def main(npag):
     n = int(npag / 4)
 
     thread1 = threading.Thread(target=imovel, args=(1, n))
-    thread2 = threading.Thread(target=imovel, args=(n+1, 2*n))
-    thread3 = threading.Thread(target=imovel, args=(2*n+1, 3*n))
-    thread4 = threading.Thread(target=imovel, args=(3*n+1, 4*n))
+    thread2 = threading.Thread(target=imovel, args=(n + 1, 2 * n))
+    thread3 = threading.Thread(target=imovel, args=(2 * n + 1, 3 * n))
+    thread4 = threading.Thread(target=imovel, args=(3 * n + 1, 4 * n))
 
     thread1.start()
     thread2.start()
@@ -166,4 +173,3 @@ def main(npag):
     thread4.join()
 
     return anuncios
-
