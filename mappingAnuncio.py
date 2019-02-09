@@ -36,11 +36,11 @@ def addPoint(anuncio, m):
 
 def addPointGroup(anuncio, m, group):
     ltdlng = anuncio['geoLocation']
-    folium.Circle(
+    folium.CircleMarker(
         location=ltdlng,
         radius=25,
-        popup=anuncio['endereco'],
-        tooltip=anuncio['valor'],
+        popup=anuncio['link'],
+        tooltip=anuncio['endereco'],
         color=anuncio['cor']
     ).add_to(group)
 
@@ -124,11 +124,15 @@ def moeda(valor):
 def main():
     open_JSON()
 
-    m = folium.Map(location=[-25.0945, -50.1633], tiles='stamentoner', zoom_start=12)
+    m = folium.Map(location=[-25.0945, -50.1633], zoom_start=12)
+
+    folium.TileLayer('cartodbpositron').add_to(m)
+    folium.TileLayer('stamentoner').add_to(m)
+    folium.TileLayer('openstreetmap').add_to(m)
 
     for anuncio in anuncios:
         an = {'endereco': anuncio['endereco'], 'valor': (float(anuncio['valor'])),
-              'geoLocation': anuncio['geoLocation'], 'cor': ''}
+              'geoLocation': anuncio['geoLocation'], 'cor': '', 'link': anuncio['link']}
         anunciosGeo.append(an)
 
     anunciosGeo.sort(key=matchValor)

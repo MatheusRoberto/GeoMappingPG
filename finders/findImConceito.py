@@ -13,8 +13,7 @@ logradouros = []
 
 
 class Anuncio:
-    def __init__(self, end, rua, numero, bairro, cidade, valor, endMath):
-        self.endereco = end
+    def __init__(self, end, rua, numero, bairro, cidade, valor, endMath, link):
         self.logradouro = rua
         self.bairro = bairro
         self.cidade = cidade
@@ -23,7 +22,12 @@ class Anuncio:
         self.data = '{:%d/%m/%Y}'.format(now)
         if numero != 0:
             self.numero = numero
+            self.endereco = rua + ', '+numero+' - '+bairro+' - '+cidade
+        else:
+            self.endereco = rua + ' - '+bairro+' - '+cidade
         self.enderecoMatch = endMath
+        self.link = link
+        self.enderecoSite = end
 
     def toJSON(self):
         return json.dumps(self, ensure_ascii=False, default=lambda o: o.__dict__, sort_keys=True, indent=4)
@@ -48,7 +52,7 @@ def estruturandoEndereco(endereco):
     bairro = result.group(0)
     bairro = bairro.replace(' - Ponta Grossa/PR', '')
 
-    print('Estruturando: ' + "s/n" in endereco)
+    #print('Estruturando: ' + "s/n" in endereco)
 
     if "s/n" in endereco:
         rua = endereco.split(',')
@@ -96,12 +100,12 @@ def buscaRuaPG(endEncontrado):
 
     n_max = max(pontuacao, key=int)
     n_pos = pontuacao.index(n_max)
-    print("Maior valor: %d" % n_max)
-    print("Indice: %d" % n_pos)
-    print("Rua: %s" % logradouros[n_pos])
-    print("Rua encontrada: %s" % endEncontrado)
+    #print("Maior valor: %d" % n_max)
+    #print("Indice: %d" % n_pos)
+    #print("Rua: %s" % logradouros[n_pos])
+    #print("Rua encontrada: %s" % endEncontrado)
 
-    print("-----------------------------")
+    #print("-----------------------------")
 
     return (n_max, logradouros[n_pos])
 
@@ -125,7 +129,7 @@ def imovel(i, j):
             if end is None:
                 print("erro")
 
-            print(d)
+     #       print(d)
             if end and preco:
                 precoAnuncio = valorAnuncio(preco.text)
                 print(r.status_code)
@@ -133,7 +137,7 @@ def imovel(i, j):
                 if precoAnuncio > 0 and pont >= 40:
                     (rua, numero, bairro, cidade) = estruturandoEndereco(end.text)
                     anuncio = Anuncio(end.text, rua, numero,
-                                      bairro, cidade, precoAnuncio, endMatch)
+                                      bairro, cidade, precoAnuncio, endMatch, d)
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
             i += 1

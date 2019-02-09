@@ -1,2162 +1,1542 @@
 [
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Engenheiro Schamber, 780 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Padre João Lux - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.1010561,
-            -50.1581476
+            -25.0974132,
+            -50.1538899
         ],
-        "valor": 850.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390950.025/apartamento-padrao-apartamentos-edifcio-rio-lena-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 162968.32
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Balduíno Taques, 1616 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Álvares de Azevedo, 38 - Ronda - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0869061,
-            -50.1649089
+            -25.1006813,
+            -50.1775159
         ],
-        "valor": 279680.21
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391034.001/sobrado-condominio-3-dormitorios-ronda-ponta-grossa-PR",
+        "valor": 394000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida Visconde de Mauá, 722 - Colônia Dona Luiza - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Avenida Bonifácio Vilela, 1168 - Jardim Carvalho - Ponta Grossa/PR",
         "geoLocation": [
-            -25.1366655,
-            -50.1527573
+            -25.0833405,
+            -50.1604907
         ],
-        "valor": 900.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390953.001/casa-padrao-4-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 1400000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Paulo Frontin, 61 - Orfãs - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Casemiro de Abreu, 183 -  Uvaranas - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0748453,
-            -50.1628463
+            -25.0907107,
+            -50.1414174
         ],
-        "valor": 301394.39
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390073.001/apartamento-padrao-edificio-casemiro-2-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 175000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Ermelino de Leão - Olarias - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Claudio Manoel da Costa, 207 -  Ronda - Ponta Grossa/PR",
         "geoLocation": [
-            -25.1007369,
-            -50.1555505
+            -25.1040106,
+            -50.1814589
         ],
-        "valor": 249335.42
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391188.001/casa-padrao-2-dormitorios-ronda-ponta-grossa-PR",
+        "valor": 170000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Manoel Antônio Braga Ramos - Estrela - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Coronel Dulcídio - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0933553,
+            -50.1615922
         ],
-        "valor": 481089.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390217.015/apartamento-padrao-edifcio-residendial-atlntico-1-dormitorio-centro-ponta-grossa-PR",
+        "valor": 167000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Prefeito Brasílio Ribas, 644 - Orfãs - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Venezuela, 44 - Oficinas - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0833012,
-            -50.1673071
+            -25.1107018,
+            -50.1562594
         ],
-        "valor": 900.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390981.002/apartamento-padrao-apartamentos-com-02-dormitrios-edifcio-grande-maison-2-dormitorios-oficinas-ponta-grossa-PR",
+        "valor": 523825.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Fagundes Varela, 2211 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Professora Izaura Torres Cruz, 541 - Jardim Carvalho - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0816677,
-            -50.1391225
+            -25.0854411,
+            -50.1545714
         ],
-        "valor": 165000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391089.001/apartamento-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 1100000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Barão de Teffe, 389 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Afonso Celso, 02 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0914241,
-            -50.1680814
+            -25.0868592,
+            -50.1502129
         ],
-        "valor": 420000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390896.001/apartamento-padrao-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 190000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Engenheiro Schamber, 780 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Colares, 808 -  Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.1010561,
-            -50.1581476
+            -25.0962289,
+            -50.1636152
         ],
-        "valor": 850.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390582.002/cobertura-edifcio-benevento-residenziale-4-dormitorios-centro-ponta-grossa-PR",
+        "valor": 912000.0
     },
     {
-        "data": "08/02/2019",
+        "data": "09/02/2019",
+        "endereco": "Rua Padre João Lux - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0974132,
+            -50.1538899
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390950.026/apartamento-padrao-apartamentos-edifcio-rio-lena-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 185798.44
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Cruz e Souza, 364 - Órfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0804347,
+            -50.15968
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390893.001/casa-padrao-4-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 1190000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Padre João Lux - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0974132,
+            -50.1538899
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390950.002/apartamento-padrao-apartamentos-edifcio-rio-lena-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 165442.22
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Pedro Lopes de Lara, 165 - Jardim Gianna - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0710733,
+            -50.1286218
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391040.001/casa-padrao-2-dormitorios-neves-ponta-grossa-PR",
+        "valor": 200000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Rio Grande do Sul, 650 - Orfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0797705,
+            -50.1625802
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390944.001/apartamento-padrao-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 410000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Padre João Lux - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0974132,
+            -50.1538899
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390950.023/apartamento-padrao-apartamentos-edifcio-rio-lena-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 183942.16
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Avenida Anita Garibaldi, 1661 -  Orfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0654557,
+            -50.159161
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391038.001/sobrado-condominio-4-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 2890000.0
+    },
+    {
+        "data": "09/02/2019",
         "endereco": "Rua Doutor Colares, 808 - Centro - Ponta Grossa/PR",
         "geoLocation": [
             -25.0962289,
             -50.1636152
         ],
-        "valor": 381000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.015/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 383000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua João Silvio de Lara Machado , 100 - Jardim Carvalho - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Coronel Dulcídio - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0933553,
+            -50.1615922
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390217.010/apartamento-padrao-edifcio-residendial-atlntico-1-dormitorio-centro-ponta-grossa-PR",
+        "valor": 160000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Benjamin Constant, 1031 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.276012,
+            -50.2347057
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390114.004/apartamento-padrao-edifcio-premire-residence-2-dormitorios-centro-ponta-grossa-PR/locacao",
+        "valor": 2000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Colares, 808 - Centro - Ponta Grossa/PR",
         "geoLocation": [
             -25.0962289,
             -50.1636152
         ],
-        "valor": 170000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.016/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 396000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Lamenha Lins, 77 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Colares, 808 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0905104,
-            -50.1492987
+            -25.0962289,
+            -50.1636152
         ],
-        "valor": 890.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.022/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 405000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Balduíno Taques, 885 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Coronel Dulcídio -  Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0869061,
-            -50.1649089
+            -25.0933553,
+            -50.1615922
         ],
-        "valor": 850.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Marechal Mallet, 5 - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1295609,
-            -50.1544483
-        ],
-        "valor": 420000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Antônio Saad, 2500 - Boa Vista - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1295609,
-            -50.1544483
-        ],
-        "valor": 170000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Emílio de Menezes, 335 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1086096,
-            -50.1613827
-        ],
-        "valor": 420000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Antônio Schwansee, 522 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1086096,
-            -50.1613827
-        ],
-        "valor": 943836.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Pedro Blageski, 455 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1069026,
-            -50.1719402
-        ],
-        "valor": 166000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Domício da Gama - Olarias - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1057007,
-            -50.1519066
-        ],
-        "valor": 355000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Rocha Pombo, 1469 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0836691,
-            -50.1541591
-        ],
-        "valor": 430000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Fagundes Varela, 2211 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0816677,
-            -50.1391225
-        ],
-        "valor": 165000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rodovia BR-376, 1 - Colônia Dona Luiza - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 489024.47
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Augusto Ribas, 289 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.089691,
-            -50.1612415
-        ],
-        "valor": 424509.35
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Santos Dumont, 370 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1015568,
-            -50.1564428
-        ],
-        "valor": 800.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Amazonas - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1063478,
-            -50.1629461
-        ],
-        "valor": 447689.19
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Sargento Carlos Argemiro Camargo - Neves - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390203.057/apartamento-padrao-edifcio-residencial-atlntico-1-dormitorio-centro-ponta-grossa-PR",
         "valor": 160000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Luiz Gama, 614 - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1153492,
-            -50.161071
-        ],
-        "valor": 410000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Comendador Miró, 415 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Comendador Miro, 1471 - Centro - Ponta Grossa/PR",
         "geoLocation": [
             -25.0925183,
             -50.1608386
         ],
-        "valor": 850.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390197.009/apartamento-padrao-edifcio-olmpia-1-dormitorio-centro-ponta-grossa-PR",
+        "valor": 165000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua João Silvio de Lara Machado , 110 - Jardim Carvalho - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Saldanha da Gama, 249 -  Orfãs - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0816084,
+            -50.167702
         ],
-        "valor": 160000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391133.001/cobertura-edifcio-palazzo-ducale-4-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 1180000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Engenheiro Grevile - Colônia Dona Luiza - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Barão do Amazonas, 389 - Ronda - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0986404,
+            -50.1690035
         ],
-        "valor": 204000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391409.001/apartamento-padrao-2-dormitorios-ronda-ponta-grossa-PR",
+        "valor": 180000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida Doutor Vicente Machado, 411 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Barão de Ramalho, 818 - Uvaranas - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0949846,
-            -50.1596821
+            -25.0886533,
+            -50.1216585
         ],
-        "valor": 800.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390986.001/sobrado-condominio-2-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 185000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida Doutor Vicente Machado, 522 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua General Osório, 422 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0949846,
-            -50.1596821
+            -25.1003501,
+            -50.1582394
         ],
-        "valor": 160000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391285.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 1700000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Eduardo Burgardt, 1555 - Contorno - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Canela, 109 - Neves - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0816053,
+            -50.1253551
         ],
-        "valor": 78216.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390535.001/casa-condominio-4-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 1200000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Emílio de Menezes, 1 - Estrela - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Olga Aleda Cavagnari, 335 - Jardim Carvalho - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0677884,
+            -50.1514293
         ],
-        "valor": 220000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391094.001/sobrado-condominio-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 199000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Augusto Ribas, 843 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Avenida Anita Garibaldi, 1979 - Órfãs - Ponta Grossa/PR",
         "geoLocation": [
-            -25.089691,
-            -50.1612415
+            -25.0654557,
+            -50.159161
         ],
-        "valor": 810.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391026.001/casa-condominio-4-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 5250000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Paula Xavier, 1055 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Paula Xavier, 1273 - Centro - Ponta Grossa/PR",
         "geoLocation": [
             -25.1023192,
             -50.1610973
         ],
-        "valor": 0.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391012.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR",
+        "valor": 1000000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua João Silvio de Lara Machado , 110 - Jardim Carvalho - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Augusto Severo, 1915 - Nova Rússia - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0818063,
+            -50.1774681
         ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390667.001/casa-padrao-3-dormitorios-nova-russia-ponta-grossa-PR",
+        "valor": 520000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua João Varassim, 305 - Jardim Carvalho - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0754693,
+            -50.1453744
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390561.001/apartamento-padrao-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 190000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Bonifácio Ribas, 195 -  Uvaranas - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0996185,
+            -50.1484269
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391114.001/sobrado-condominio-2-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 170000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Herculano de Freitas, 803 - Jardim Carvalho - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.07938,
+            -50.1574018
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390605.001/casa-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 590000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Padre João Lux - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0974132,
+            -50.1538899
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390950.006/apartamento-padrao-apartamentos-edifcio-rio-lena-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 165258.4
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Padre João Lux - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0974132,
+            -50.1538899
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390950.001/apartamento-padrao-apartamentos-edifcio-rio-lena-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 163747.44
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Desembargador Joaquim Ferreira Guimarães, 22 - Jardim Carvalho - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0819151,
+            -50.1602726
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390842.001/casa-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 1600000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Comendador Miro, 1471 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0925183,
+            -50.1608386
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390197.003/apartamento-padrao-edifcio-olmpia-1-dormitorio-centro-ponta-grossa-PR",
         "valor": 160000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida Bonifácio Vilela, 473 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Alberto de Oliveira, 2226 - Palmeirinha - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0850752,
-            -50.1602674
+            -25.0723403,
+            -50.175883
         ],
-        "valor": 800.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390904.001/sobrado-padrao-3-dormitorios-nova-russia-ponta-grossa-PR",
+        "valor": 500000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Cará-cará - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Siqueira Campos, 2000 - Uvaranas - Ponta Grossa/PR",
         "geoLocation": [
-            -25.1769824,
-            -50.1062067
+            -25.1046197,
+            -50.1257152
         ],
-        "valor": 20500000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391194.001/casa-padrao-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 200000.0
     },
     {
-        "data": "08/02/2019",
+        "data": "09/02/2019",
+        "endereco": "Rua Saldanha da Gama, 249 -  Orfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0816084,
+            -50.167702
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391133.002/cobertura-edifcio-palazzo-ducale-4-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 1340000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Comendador Miro, 1471 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0925183,
+            -50.1608386
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390197.008/apartamento-padrao-edifcio-olmpia-1-dormitorio-centro-ponta-grossa-PR",
+        "valor": 215000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Leopoldo Guimarães da Cunha, 1551 - Oficinas - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1121192,
+            -50.1509006
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391001.001/casa-condominio-4-dormitorios-oficinas-ponta-grossa-PR",
+        "valor": 1800000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Barão do Amazonas, 389 - Ronda - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0986404,
+            -50.1690035
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391408.001/apartamento-padrao-2-dormitorios-ronda-ponta-grossa-PR",
+        "valor": 170000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Adjaniro Cardon, 369 - Jardim Carvalho - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0828739,
+            -50.1554275
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390921.001/apartamento-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 947000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Comendador Miró, 1329 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0925183,
+            -50.1608386
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390292.010/apartamento-padrao-edifcio-vale-do-sol-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 560000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Nunes Machado, 60 - Colônia Dona Luíza - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1369204,
+            -50.1578633
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391014.001/casa-condominio-5-dormitorios-oficinas-ponta-grossa-PR",
+        "valor": 1550000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Antônio João, 191 - Órfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0762601,
+            -50.1597519
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390690.001/apartamento-padrao-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 525000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Marquês do Paraná, 577 - Ronda - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0978618,
+            -50.1732042
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390687.001/apartamento-padrao-2-dormitorios-ronda-ponta-grossa-PR",
+        "valor": 200000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Nilo Peçanha, 448 - Estrela - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1124275,
+            -50.1594575
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391032.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR/locacao",
+        "valor": 2500.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Quinze de Setembro, 983 - Uvaranas - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0838687,
+            -50.1348445
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390467.001/casa-padrao-4-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 980000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Carlos de Carvalho, 804 - Uvaranas - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1054588,
+            -50.0979585
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390927.001/casa-condominio-2-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 209000.0
+    },
+    {
+        "data": "09/02/2019",
         "endereco": "Rua Coronel Dulcídio, 253 - Centro - Ponta Grossa/PR",
         "geoLocation": [
             -25.0933553,
             -50.1615922
         ],
-        "valor": 400000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390838.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 585000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Comendador Ayrton Plaisant, 641 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Avenida Bonifácio Vilela, 1212 - Jardim Carvalho - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0938008,
-            -50.1650525
+            -25.0833405,
+            -50.1604907
         ],
-        "valor": 160000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391104.001/casa-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 950000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rodovia BR-376 - Colônia Dona Luiza - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Avenida Ana Rita, 789 - Uvaranas - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0938008,
-            -50.1650525
+            -25.1027403,
+            -50.1425598
         ],
-        "valor": 15000000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391023.001/apartamento-padrao-2-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 180000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Sargento Carlos Argemiro Camargo - Neves - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 160000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Sargento Carlos Argemiro Camargo - Neves - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 160000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Joanito Costa Ribeiro - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 139000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Fagundes Varela, 2211 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0816677,
-            -50.1391225
-        ],
-        "valor": 155000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua General Carneiro, 1170 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1001205,
-            -50.1561302
-        ],
-        "valor": 400000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Ucrânia - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.086331,
-            -50.1279141
-        ],
-        "valor": 239000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Anita Garibaldi, 2641 - Orfãs - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0654557,
-            -50.159161
-        ],
-        "valor": 240000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Sargento Carlos Argemiro Camargo - Neves - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 160000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Teixeira de Freitas, 270 - Nova Rússia - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0862203,
-            -50.1875589
-        ],
-        "valor": 800.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida João Manoel dos Santos Ribas, 610 - Nova Rússia - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0867198,
-            -50.1754629
-        ],
-        "valor": 226258.98
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Sete de Setembro, 466 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.089238,
-            -50.1590848
-        ],
-        "valor": 400000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Euzébio de Queiroz, 1090 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1044973,
-            -50.1036771
-        ],
-        "valor": 5500000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Doutor Vicente Machado, 522 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0949846,
-            -50.1596821
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Cará-cará - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1769824,
-            -50.1062067
-        ],
-        "valor": 7500000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Estrada José Kalinoski - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1769824,
-            -50.1062067
-        ],
-        "valor": 400000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Fagundes Varela, 2211 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0816677,
-            -50.1391225
-        ],
-        "valor": 155000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida General Carlos Cavalcanti, 4274 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0917683,
-            -50.1149123
-        ],
-        "valor": 9500000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Doutor Francisco Burzio, 805 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 800.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Coronel Dulcídio, 922 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0933553,
-            -50.1615922
-        ],
-        "valor": 800.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua João Silvio de Lara Machado , 110 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 150000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Monteiro Lobato, 2700 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 380000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Osório Subtil Marçal, 1 - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1098869,
-            -50.2036832
-        ],
-        "valor": 152252.63
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Penteado de Almeida, 70 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0865245,
-            -50.1625374
-        ],
-        "valor": 800.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Rosmar Dinies Escobar - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1079242,
-            -50.2223448
-        ],
-        "valor": 155000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Dom Pedro I, 421 - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1277954,
-            -50.1543924
-        ],
-        "valor": 800.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Leopoldo Guimarães da Cunha - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Ana Rita - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1000315,
-            -50.1449804
-        ],
-        "valor": 150000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Xavier da Silva - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1000315,
-            -50.1449804
-        ],
-        "valor": 400000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Jordão Cardoso, 180 - Colônia Dona Luiza - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1000315,
-            -50.1449804
-        ],
-        "valor": 400000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua João Silvio de Lara Machado , 110 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 150000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Leopoldo Miques, 111 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1047193,
-            -50.1688545
-        ],
-        "valor": 140000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Santa Rita Durão, 238 - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 150000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Olegário Mariano, 485 - Neves - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0760979,
-            -50.1274295
-        ],
-        "valor": 800.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Osório Subtil Marçal, 1 - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1098869,
-            -50.2036832
-        ],
-        "valor": 140015.13
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Doutor Vicente Machado, 777 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0949846,
-            -50.1596821
-        ],
-        "valor": 370000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Joaquim de Paula Xavier, 1500 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 380000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Osório Subtil Marçal, 1 - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1098869,
-            -50.2036832
-        ],
-        "valor": 141507.25
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Antônio Saad, 2500 - Boa Vista - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 790.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua João Silvio de Lara Machado , 110 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 140000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Violeta, 348 - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1167448,
-            -50.2017867
-        ],
-        "valor": 800.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua João Maurício Faivre, 357 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 380000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Cará-cará - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 370000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida General Carlos Cavalcanti, 3050 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0917683,
-            -50.1149123
-        ],
-        "valor": 3200000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Adjaniro Cardon, 419 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0828739,
-            -50.1554275
-        ],
-        "valor": 380000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Bôrtolo Moro - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0828739,
-            -50.1554275
-        ],
-        "valor": 138000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Cará-cará - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1769824,
-            -50.1062067
-        ],
-        "valor": 350000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Balduíno Taques, 1100 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0869061,
-            -50.1649089
-        ],
-        "valor": 750.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Visconde de Taunay, 207 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0869061,
-            -50.1649089
-        ],
-        "valor": 750.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Doutor Vicente Machado, 777 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0949846,
-            -50.1596821
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Major Alceu Teixeira Pinto, 100 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1152806,
-            -50.1683596
-        ],
-        "valor": 3200000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Nicolau Kluppel Neto, 1563 - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Conrado Schiffer, 60 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 750.0
-    },
-    {
-        "data": "08/02/2019",
+        "data": "09/02/2019",
         "endereco": "Rua Doutor Leopoldo Guimarães da Cunha, 1000 - Oficinas - Ponta Grossa/PR",
         "geoLocation": [
             -25.1121192,
             -50.1509006
         ],
-        "valor": 2950000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390742.001/casa-condominio-4-dormitorios-oficinas-ponta-grossa-PR",
+        "valor": 1915000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Marquês de Maricá, 50 - Orfãs - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Leopoldo Guimarães da Cunha, 234 - Oficinas - Ponta Grossa/PR",
         "geoLocation": [
             -25.1121192,
             -50.1509006
         ],
-        "valor": 750.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390199.001/apartamento-padrao-3-dormitorios-oficinas-ponta-grossa-PR",
+        "valor": 590000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Tijucas do Sul, 304 - Oficinas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Engenheiro Schamber, 452 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.1291943,
-            -50.1393776
+            -25.1010561,
+            -50.1581476
         ],
-        "valor": 350000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391144.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 1100000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Visconde de Bom Retiro, 60 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Avenida Anita Garibaldi, 1979 - Órfãs - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0654557,
+            -50.159161
         ],
-        "valor": 750.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390918.001/casa-condominio-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 1800000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida Newton Slaviero, 2682 - Cará-cará - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Enfermeira Adelaide Pareta, 21 - Uvaranas - Ponta Grossa/PR",
         "geoLocation": [
-            -25.152932,
-            -50.1428247
+            -25.0887808,
+            -50.1153299
         ],
-        "valor": 2800000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391103.001/loteamento-condominio-uvaranas-ponta-grossa-PR",
+        "valor": 170000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Júlio de Castilho, 737 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 750.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua João Ribeiro, 80 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0886773,
-            -50.1166882
-        ],
-        "valor": 750.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Visconde de Taunay - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0940646,
-            -50.1656673
-        ],
-        "valor": 2300000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Almirante Barroso, 3127 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0792782,
-            -50.1311104
-        ],
-        "valor": 700.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Valério Ronchi, 160 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 700.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Balduíno Taques, 313 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 2400000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Praça Barão de Guaraúna, 179 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 700.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Joaquim de Paula Xavier, 1100 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 2500000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Couto Magalhães, 468 - Nova Rússia - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 750.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Visconde de Mauá - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 2100000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Couto Magalhães, 801 - Nova Rússia - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 700.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Luiz Copla, 88 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0766858,
-            -50.1456528
-        ],
-        "valor": 750.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Praça Marechal Floriano Peixoto, 76 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0975919,
-            -50.1589792
-        ],
-        "valor": 650.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Francisco Ribas, 330 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 1900000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Praça Marechal Floriano Peixoto, 62 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0975919,
-            -50.1589792
-        ],
-        "valor": 700.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Dezenove de Dezembro, 406 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0975919,
-            -50.1589792
-        ],
-        "valor": 650.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Augusto Ribas, 843 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Augusto Ribas, 369 - Centro - Ponta Grossa/PR",
         "geoLocation": [
             -25.089691,
             -50.1612415
         ],
-        "valor": 700.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390852.001/apartamento-padrao-4-dormitorios-centro-ponta-grossa-PR",
+        "valor": 550000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida Doutor Vicente Machado, 404 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Saldanha da Gama, 249 -  Orfãs - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0949846,
-            -50.1596821
+            -25.0816084,
+            -50.167702
         ],
-        "valor": 700.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391121.002/garden-palazzo-ducale-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 938000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Chafic Cury, 310 - Jardim Carvalho - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Freire Alemão, 871 - Vila Estrela - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0732462,
-            -50.1526833
+            -25.1114927,
+            -50.1611559
         ],
-        "valor": 700.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390190.001/apartamento-padrao-3-dormitorios-jardim-america-ponta-grossa-PR",
+        "valor": 495000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Jorge Becher - Colônia Dona Luiza - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Comendador Miro, 1471 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0925183,
+            -50.1608386
         ],
-        "valor": 1900000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390197.001/apartamento-padrao-edifcio-olmpia-1-dormitorio-centro-ponta-grossa-PR",
+        "valor": 205000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Rio Negro, 34 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Professora Izaura Torres Cruz, 541 - Jardim Carvalho - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0854411,
+            -50.1545714
         ],
-        "valor": 2000000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390378.001/apartamento-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 1150000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Visconde de Nacar, 323 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Freire Alemão - Estrela - Ponta Grossa/PR",
         "geoLocation": [
-            -25.1005016,
-            -50.1630759
+            -25.1114927,
+            -50.1611559
         ],
-        "valor": 2000000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390751.001/apartamento-padrao-edifcio-residencial-gran-piazza-3-dormitorios-estrela-ponta-grossa-PR",
+        "valor": 540000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Penteado de Almeida, 260 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Paula Xavier, 1301 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0865245,
-            -50.1625374
+            -25.1023192,
+            -50.1610973
         ],
-        "valor": 650.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391003.001/cobertura-4-dormitorios-centro-ponta-grossa-PR",
+        "valor": 4900000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Joaquim de Paula Xavier, 1500 - Estrela - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Pedro Álvares Cabral, 200 - Nova Rússia - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.08068,
+            -50.183136
         ],
-        "valor": 1910000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391096.001/duplex-2-dormitorios-nova-russia-ponta-grossa-PR",
+        "valor": 1100000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Vicente Spósito, 188 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Paula Xavier, 1301 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.1023192,
+            -50.1610973
         ],
-        "valor": 650.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391021.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR",
+        "valor": 950000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Saint Hilaire, 20 - Oficinas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua México - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.1021124,
+            -50.1627974
         ],
-        "valor": 650.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391076.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 520000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Saint Hilaire, 20 - Oficinas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Colares, 808 -  Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.109574,
-            -50.1582187
+            -25.0962289,
+            -50.1636152
         ],
-        "valor": 650.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390582.004/cobertura-edifcio-benevento-residenziale-4-dormitorios-centro-ponta-grossa-PR",
+        "valor": 1120000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Engenheiro Carlos Alberto Haddad, 10 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Colares, 808 -  Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0950169,
-            -50.1278792
+            -25.0962289,
+            -50.1636152
         ],
-        "valor": 650.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390582.003/cobertura-edifcio-benevento-residenziale-4-dormitorios-centro-ponta-grossa-PR",
+        "valor": 1030000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida General Carlos Cavalcanti, 1 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Silva Jardim, 600 - Vila Estrela - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0917683,
-            -50.1149123
+            -25.1071749,
+            -50.1591816
         ],
-        "valor": 1650000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391011.001/cobertura-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 2900000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Prudente de Morais, 200 - Estrela - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua México - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.1054567,
-            -50.162363
+            -25.1021124,
+            -50.1627974
         ],
-        "valor": 1500000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391085.001/cobertura-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 785000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Sant Ana, 749 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Comendador Miró, 1329 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0925183,
+            -50.1608386
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390292.013/apartamento-padrao-edifcio-vale-do-sol-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 600000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Beckmann, 26 - Contorno - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Colares, 808 -  Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0977874,
-            -50.188081
+            -25.0962289,
+            -50.1636152
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390581.003/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 549000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Vereador Ernâni Batista Rosas, 3131 - Jardim Carvalho - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Prefeito Brasílio Ribas, 368 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0879644,
+            -50.1659115
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390926.001/terreno-urbano-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 650000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Valério Ronchi, 160 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Colares, 808 -  Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0962289,
+            -50.1636152
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390582.001/cobertura-edifcio-benevento-residenziale-4-dormitorios-centro-ponta-grossa-PR",
+        "valor": 875000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida Visconde de Taunay, 197 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Lauro Marcondes Ferreira, 440 - Jardim Carvalho - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0940646,
-            -50.1656673
+            -25.0789383,
+            -50.1543971
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390414.003/apartamento-padrao-edifcio-piazza-allegra-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 578000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Valério Ronchi, 855 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Travessa São Paulo, 302 -  Uvaranas - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0915581,
+            -50.1361495
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390542.001/casa-padrao-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 850000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida Ernesto Vilela, 652 - Nova Rússia - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Amazonas, 23 -  Estrela - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0842544,
-            -50.1774441
+            -25.1063478,
+            -50.1629461
         ],
-        "valor": 1500000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/680001.006/duplex-life-residence-3-dormitorios-estrela-ponta-grossa-PR",
+        "valor": 714164.75
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Balduíno Taques, 1564 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Saldanha da Gama, 249 -  Orfãs - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0842544,
-            -50.1774441
+            -25.0816084,
+            -50.167702
         ],
-        "valor": 1800000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391121.001/garden-palazzo-ducale-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 719000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Vicente Spósito, 188 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Octávio de Carvalho, 1723 - Jardim Carvalho - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0842544,
-            -50.1774441
+            -25.0774227,
+            -50.1513934
         ],
-        "valor": 640.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391253.001/sobrado-padrao-4-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 710000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Almirante Custódio de Mello, 327 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Saldanha da Gama, 249 -  Orfãs - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0921858,
-            -50.1674453
+            -25.0816084,
+            -50.167702
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391123.001/apartamento-padrao-edifcio-palazzo-ducale-apartamento-padro-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 661000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Vicente Spósito, 188 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Cirema Becker, 148 - Contorno - Ponta Grossa/PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.1061884,
+            -50.2214193
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390638.001/terreno-urbano-contorno-ponta-grossa-PR",
+        "valor": 600000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Praça Barão de Guaraúna, 179 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Avenida Ana Rita, 207 - Uvaranas - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0948823,
-            -50.1626641
+            -25.1027403,
+            -50.1425598
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391107.001/terreno-urbano-uvaranas-ponta-grossa-PR",
+        "valor": 750000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Avenida Ernesto Vilela, 650 - Nova Rússia - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Coronel Dulcídio, 07 - Centro - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0948823,
-            -50.1626641
+            -25.0933553,
+            -50.1615922
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390121.014/apartamento-padrao-edificio-gran-torino-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 680000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Praça Barão de Guaraúna, 179 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Avelino Antônio Vieira, 132 - Boa Vista - Ponta Grossa/PR",
         "geoLocation": [
-            -25.0948823,
-            -50.1626641
+            -25.0772326,
+            -50.191799
         ],
-        "valor": 600.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391272.001/casa-padrao-3-dormitorios-boa-vista-ponta-grossa-PR",
+        "valor": 600000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Hermínio Baggio, 99 - Estrela - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Siqueira Campos, 3100 - Uvaranas - Ponta Grossa/PR",
         "geoLocation": [
-            -25.1159993,
-            -50.1684556
+            -25.1046197,
+            -50.1257152
         ],
-        "valor": 1450000.0
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391222.001/sobrado-conjugado-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "valor": 620000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Santos Dumont, 293 - Centro - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua México - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1021124,
+            -50.1627974
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391083.001/cobertura-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 798000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Saldanha da Gama, 249 -  Orfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0816084,
+            -50.167702
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391123.003/apartamento-padrao-edifcio-palazzo-ducale-apartamento-padro-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 611000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Prefeito Brasílio Ribas -  Orfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0833012,
+            -50.1673071
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390278.001/apartamento-padrao-edifcio-nob-plaza-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 640000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Paula Xavier, 1399 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1023192,
+            -50.1610973
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391117.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "valor": 850000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Bahia, 838 -  Nova Rússia - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0862291,
+            -50.1751664
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390202.001/casa-padrao-3-dormitorios-nova-russia-ponta-grossa-PR",
+        "valor": 690000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Canela, 68 - Uvaranas - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0816053,
+            -50.1253551
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391139.001/casa-condominio-3-dormitorios-neves-ponta-grossa-PR",
+        "valor": 680000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Carlos Osternack, 34 - Estrela - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1026321,
+            -50.1598103
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391401.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR",
+        "valor": 625000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Octávio de Carvalho, 1377 -  Jardim Carvalho - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0774227,
+            -50.1513934
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390373.001/casa-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "valor": 650000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Saldanha da Gama, 249 -  Orfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0816084,
+            -50.167702
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391123.005/apartamento-padrao-edifcio-palazzo-ducale-apartamento-padro-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 617000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Saldanha da Gama, 249 -  Orfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0816084,
+            -50.167702
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391123.006/apartamento-padrao-edifcio-palazzo-ducale-apartamento-padro-3-dormitorios-orfas-ponta-grossa-PR",
+        "valor": 794000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua México - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1021124,
+            -50.1627974
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391084.001/cobertura-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 650000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua México - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1021124,
+            -50.1627974
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391082.002/cobertura-edifcio-monterrey-palace-2-dormitorios-centro-ponta-grossa-PR",
+        "valor": 650000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Olavo Bilac, 200 - Uvaranas - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1023577,
+            -50.1460455
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390598.001/terreno-urbano-uvaranas-ponta-grossa-PR",
+        "valor": 650000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Coronel Dulcídio, 311 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0933553,
+            -50.1615922
+        ],
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391211.001/terreno-urbano-centro-ponta-grossa-PR",
+        "valor": 850000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Marechal Mallet, 5 - Oficinas - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1295609,
+            -50.1544483
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/casa-de-162-m-na-rua-marechal-mallet-5-oficinas-ponta-grossa-pr-a-venda-por-420000/CA0061-TAVB",
+        "valor": 420000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Enfermeira Adelaide Pareta - Uvaranas - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0887808,
+            -50.1153299
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/terreno-de-300-m-na-rua-enfermeira-adelaide-pareta-uvaranas-ponta-grossa-pr-a-venda-por-180000/TE0955-TAVB",
+        "valor": 180000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Balduíno Taques, 1963 - Orfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0830245,
+            -50.165827
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/loja-de-70-m-na-rua-balduino-taques-1963-orfas-ponta-grossa-pr-para-alugar-por-1100-mes/LO0103-TAVB",
+        "valor": 1100.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Antônio Schwansee, 522 - Estrela - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1126241,
+            -50.1703401
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/empreendimento/villa-vicenza-casas-e-terrenos-na-rua-doutor-antonio-schwansee-estrela-ponta-grossa-pr-a-venda-a-partir-de-943836/7483560-TAVB",
+        "valor": 943836.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Avenida Rocha Pombo, 1469 - Jardim Carvalho - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0836691,
+            -50.1541591
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/casa-de-123-m-na-avenida-rocha-pombo-1469-jardim-carvalho-ponta-grossa-pr-a-venda-por-430000/CA0311-TAVB",
+        "valor": 430000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Emílio de Menezes, 335 - Estrela - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1086096,
+            -50.1613827
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/casa-de-72-m-na-rua-emilio-de-menezes-335-estrela-ponta-grossa-pr-a-venda-por-420000/CA0274-TAVB",
+        "valor": 420000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Augusto Ribas, 289 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.089691,
+            -50.1612415
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/empreendimento/rembrandt-apartamentos-apartamentos-garden-e-lojas-na-rua-augusto-ribas-centro-ponta-grossa-pr-a-venda-a-partir-de-424509/5285559-TAVB",
+        "valor": 424509.35
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Barão de Teffe, 389 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0914241,
+            -50.1680814
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/casa-de-67-m-na-rua-barao-de-teffe-389-centro-ponta-grossa-pr-a-venda-por-420000/CA0114-TAVB",
+        "valor": 420000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Balduíno Taques, 1616 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0869061,
+            -50.1649089
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/empreendimento/blend-work-conjuntos-na-rua-balduino-taques-centro-ponta-grossa-pr-a-venda-a-partir-de-279680/9603068-TAVB",
+        "valor": 279680.21
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Balduíno Taques, 1556 - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0869061,
+            -50.1649089
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/sobrado-de-132-m-na-rua-balduino-taques-1556-centro-ponta-grossa-pr-para-alugar-por-1100-mes/SO0086-TAVB",
+        "valor": 1100.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Amazonas - Estrela - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1063478,
+            -50.1629461
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/empreendimento/life-residence-apartamentos-apartamentos-duplex-e-coberturas-na-rua-amazonas-estrela-ponta-grossa-pr-a-venda-a-partir-de-447689/7923478-TAVB",
+        "valor": 447689.19
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Paulo Frontin, 61 - Orfãs - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0748453,
+            -50.1628463
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/empreendimento/blend-live-apartamentos-na-rua-paulo-frontin-orfas-ponta-grossa-pr-a-venda-a-partir-de-301394/9603331-TAVB",
+        "valor": 301394.39
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua República do Líbano, 214 - Jardim Carvalho - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0710862,
+            -50.1549831
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/apartamento-de-107-m-na-rua-republica-do-libano-214-jardim-carvalho-ponta-grossa-pr-para-alugar-por-1100-mes/AP0819-TAVB",
+        "valor": 1100.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Haroldo Franze, 93 - Uvaranas - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0844563,
+            -50.1131934
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/casa-de-115-m-na-rua-haroldo-franze-93-uvaranas-ponta-grossa-pr-a-venda-por-190000/CA0142-TAVB",
+        "valor": 190000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Minas Gerais, 788 - Boa Vista - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0774258,
+            -50.1881981
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/casa-de-84-m-na-rua-minas-gerais-788-boa-vista-ponta-grossa-pr-para-alugar-por-1100-mes/CA0464-TAVB",
+        "valor": 1100.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua General Carneiro - Centro - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.0945523,
+            -50.1566741
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/imovel/sala-de-41-m-na-rua-general-carneiro-centro-ponta-grossa-pr-para-alugar-por-1100-mes/SA0111-TAVB",
+        "valor": 1100.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Domício da Gama - Olarias - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1057007,
+            -50.1519066
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/empreendimento/monte-siao-sobrados-na-rua-domicio-da-gama-olarias-ponta-grossa-pr-a-venda-a-partir-de-355000/7537712-TAVB",
+        "valor": 355000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Ermelino de Leão - Olarias - Ponta Grossa/PR",
+        "geoLocation": [
+            -25.1023922,
+            -50.1560042
+        ],
+        "link": "https://www.tavarnaroconsultoria.com.br/empreendimento/l-essence-parc-apartamentos-na-rua-ermelino-de-leao-olarias-ponta-grossa-pr-a-venda-a-partir-de-249335/8542520-TAVB",
+        "valor": 249335.42
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Padre Anacleto, 247 - Nova Rússia, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0856129,
+            -50.1765955
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-nova-russia-ref-120201-4#location",
+        "valor": 495000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Coronel Dulcídio, 1602 - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0933553,
+            -50.1615922
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-imobiliaria-casa-top-ref-107148-4",
+        "valor": 330000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Doutor Leopoldo Guimarães da Cunha - Oficinas, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.1121192,
+            -50.1509006
+        ],
+        "link": "https://procureimovel.com.br/imovel/cobertura-venda-ponta-grossa-oficinas-ref-119955-4#location",
+        "valor": 1000000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Coronel Dulcídio - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0933553,
+            -50.1615922
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-contrave-imoveis-ref-106029-4#location",
+        "valor": 330000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Prefeito Brasílio Ribas - Orfãs, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0833012,
+            -50.1673071
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-orfas-madol-imoveis-ref-41518-4",
+        "valor": 625000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Antônio Vieira, 776 - Jardim Carvalho, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0796909,
+            -50.1608368
+        ],
+        "link": "https://procureimovel.com.br/imovel/casa-venda-ponta-grossa-jardim-carvalho-adquira-imoveis-ref-104182-4",
+        "valor": 630000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Coronel Dulcídio - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0933553,
+            -50.1615922
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-contrave-imoveis-ref-106029-4",
+        "valor": 330000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Tobias Moscoso, 300 - Ronda, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.1016938,
+            -50.1692949
+        ],
+        "link": "https://procureimovel.com.br/imovel/casa-venda-ponta-grossa-ronda-imobiliaria-casa-top-ref-125898-4",
+        "valor": 180000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Venezuela, s/n - Oficinas, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.1107018,
+            -50.1562594
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-oficinas-base-forte-imoveis-ref-96430-4#location",
+        "valor": 630000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Avenida José Primor, 248 - Uvaranas, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.1012123,
+            -50.1156895
+        ],
+        "link": "https://procureimovel.com.br/imovel/casa-venda-ponta-grossa-uvaranas-dat-imoveis-ref-102941-4#location",
+        "valor": 600000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Enfermeira Adelaide Pareta - Uvaranas, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0887808,
+            -50.1153299
+        ],
+        "link": "https://procureimovel.com.br/imovel/loteamento-condominio-venda-ponta-grossa-uvaranas-madol-imoveis-ref-20067-4#location",
+        "valor": 180000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Padre Anacleto, 247 - Nova Rússia, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0856129,
+            -50.1765955
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-nova-russia-ref-120201-4",
+        "valor": 495000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Francisco Rizental, 612 - Boa Vista, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0593626,
+            -50.1674607
+        ],
+        "link": "https://procureimovel.com.br/imovel/sobrado-venda-ponta-grossa-boa-vista-imobiliaria-kikina-ref-119041-4",
+        "valor": 625000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Avenida Ana Rita, s/n - Uvaranas, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.1027403,
+            -50.1425598
+        ],
+        "link": "https://procureimovel.com.br/imovel/terreno-venda-ponta-grossa-uvaranas-adquira-imoveis-ref-110269-4#location",
+        "valor": 180000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Miguel Calmon, 222 - Uvaranas, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0920268,
+            -50.145863
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-uvaranas-classica-imoveis-ref-95218-4",
+        "valor": 330000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Saldanha da Gama, s/n - Orfãs, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0816084,
+            -50.167702
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-orfas-adquira-imoveis-ref-94938-4#location",
+        "valor": 622000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Guabirobeira, 63 - Contorno / Sta. Paula, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0929456,
+            -50.2072662
+        ],
+        "link": "https://procureimovel.com.br/imovel/casa-venda-ponta-grossa-contorno-sta-paula-imobiliaria-kikina-ref-118705-4#location",
+        "valor": 180000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Monte Alverne, 587 - Jardim Carvalho, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0824939,
+            -50.1523196
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-jardim-carvalho-ref-21925-4",
+        "valor": 230000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Bandeirantes, S/Nº - Nova Rússia, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0707799,
+            -50.1762526
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-nova-russia-imobiliaria-kikina-ref-125720-4#location",
+        "valor": 330000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Balduino Taques, S/N - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0869061,
+            -50.1649089
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-imobiliaria-dourada-ref-108966-4",
+        "valor": 550000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Coronel Dulcídio, 1602 - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0933553,
+            -50.1615922
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-imobiliaria-casa-top-ref-107148-4#location",
+        "valor": 330000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua General Carneiro, 1350 - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.1001205,
+            -50.1561302
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-base-forte-imoveis-ref-120227-4",
+        "valor": 330000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Miguel Calmon, 1111 - Uvaranas, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0920268,
+            -50.145863
+        ],
+        "link": "https://procureimovel.com.br/imovel/casa-venda-ponta-grossa-uvaranas-jb-ribas-imoveis-ref-125295-4#location",
+        "valor": 395000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua General Carneiro, 215 - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.1001205,
+            -50.1561302
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-adquira-imoveis-ref-20850-4#location",
+        "valor": 627000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Almirante Barroso, 858 - Uvaranas, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0792782,
+            -50.1311104
+        ],
+        "link": "https://procureimovel.com.br/imovel/sobrado-venda-ponta-grossa-uvaranas-ref-120415-4",
+        "valor": 165000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua General Carneiro, 215 - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.1001205,
+            -50.1561302
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-adquira-imoveis-ref-27517-4",
+        "valor": 627000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Prefeito Brasílio Ribas, 573 - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0879644,
+            -50.1659115
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-imobiliaria-casa-top-ref-107626-4#location",
+        "valor": 625000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua do Rosário, 1220 - Centro, Ponta Grossa, PR",
+        "geoLocation": [
+            -25.0921055,
+            -50.1554361
+        ],
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-classica-imoveis-ref-125525-4",
+        "valor": 330000.0
+    },
+    {
+        "data": "09/02/2019",
+        "endereco": "Rua Santos Dumont, 11 - Centro, Ponta Grossa, PR",
         "geoLocation": [
             -25.1015568,
             -50.1564428
         ],
-        "valor": 1500000.0
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-adquira-imoveis-ref-105295-4#location",
+        "valor": 620000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Valério Ronchi, 1010 - Uvaranas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua Enfermeira Adelaide Pareta - Uvaranas, Ponta Grossa, PR",
         "geoLocation": [
-            -25.095,
-            -50.16194
+            -25.0887808,
+            -50.1153299
         ],
-        "valor": 600.0
+        "link": "https://procureimovel.com.br/imovel/loteamento-condominio-venda-ponta-grossa-uvaranas-madol-imoveis-ref-20067-4",
+        "valor": 180000.0
     },
     {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Leopoldo Guimarães da Cunha, 1551 - Oficinas - Ponta Grossa/PR",
+        "data": "09/02/2019",
+        "endereco": "Rua General Carneiro, 215 - Centro, Ponta Grossa, PR",
         "geoLocation": [
-            -25.1121192,
-            -50.1509006
+            -25.1001205,
+            -50.1561302
         ],
-        "valor": 1450000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Beckmann, 26 - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0977874,
-            -50.188081
-        ],
-        "valor": 590.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Dezenove de Dezembro, 468 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.276713,
-            -50.2345593
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida General Carlos Cavalcanti, 3356 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.276713,
-            -50.2345593
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Dom Pedro II, 849 - Nova Rússia - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0819903,
-            -50.1891341
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Governador Bento Munhoz da Rocha Neto, 258 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0766858,
-            -50.1456528
-        ],
-        "valor": 1330000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Visconde de Mauá, 1779 - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1237143,
-            -50.1550005
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Afonso Celso, 1516 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0848855,
-            -50.1467086
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Vereador Ernâni Batista Rosas, 3131 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 580.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua José Koteski - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 1245000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Barão do Cerro Azul, 912 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0884062,
-            -50.1605664
-        ],
-        "valor": 1300000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Dezenove de Dezembro, 468 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.276713,
-            -50.2345593
-        ],
-        "valor": 570.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Doutor Vicente Machado, 585 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0949846,
-            -50.1596821
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Francisco Celso Baptista Rosas - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Leopoldo Miques, 167 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1047193,
-            -50.1688545
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Governador Bento Munhoz da Rocha Neto, 258 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0766858,
-            -50.1456528
-        ],
-        "valor": 1100000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Francisco Celso Baptista Rosas, 606 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0742271,
-            -50.1566611
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Dezenove de Dezembro, 468 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.276713,
-            -50.2345593
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Padre Arnaldo Janssen - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.276713,
-            -50.2345593
-        ],
-        "valor": 1200000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Bonifácio Vilela, 585 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.276713,
-            -50.2345593
-        ],
-        "valor": 1100000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otacília Hasselmann de Oliveira, 89 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 1166000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Pedro Beninca, 338 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Dezenove de Dezembro, 468 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Theodoro Rosas, 1318 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Leopoldo Miques, 167 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1047193,
-            -50.1688545
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Leopoldo Guimarães da Cunha, 1000 - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1121192,
-            -50.1509006
-        ],
-        "valor": 1121854.47
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Visconde de Mauá, 1779 - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1237143,
-            -50.1550005
-        ],
-        "valor": 500.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Poeta Paulo Leminski - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 500.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Quinze de Novembro, 545 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 550.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Leopoldo Guimarães da Cunha, 1551 - Oficinas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1121192,
-            -50.1509006
-        ],
-        "valor": 1050000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Senador Flávio Carvalho Guimarães - Boa Vista - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 500.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Eugênio José Bocchi, 140 - Boa Vista - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0723482,
-            -50.1814273
-        ],
-        "valor": 1080000.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Balduíno Taques, 157 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0869061,
-            -50.1649089
-        ],
-        "valor": 500.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Rodrigo Silva, 665 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0881972,
-            -50.1206733
-        ],
-        "valor": 495.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Coronel Bittencourt, 333 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 470.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Valério Ronchi, 160 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 480.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida General Carlos Cavalcanti, 1761 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0917683,
-            -50.1149123
-        ],
-        "valor": 500.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Coronel Bittencourt, 333 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 470.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Monte Alverne, 369 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0824939,
-            -50.1523196
-        ],
-        "valor": 450.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Coronel Bittencourt, 333 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0824939,
-            -50.1523196
-        ],
-        "valor": 470.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Santa Catarina do Ceno, 119 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0824939,
-            -50.1523196
-        ],
-        "valor": 450.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Raul Pompéia, 77 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0824939,
-            -50.1523196
-        ],
-        "valor": 430.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Jaime Pinto Rosas, 56 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0805128,
-            -50.1555098
-        ],
-        "valor": 400.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Sete de Setembro, 800 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0805128,
-            -50.1555098
-        ],
-        "valor": 450.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Quinze de Novembro, 308 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 450.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Valério Ronchi, 160 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 450.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Barão de Capanema - Nova Rússia - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 450.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Doutor Penteado de Almeida, 110 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0865245,
-            -50.1625374
-        ],
-        "valor": 330.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Raul Pompéia, 77 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0865245,
-            -50.1625374
-        ],
-        "valor": 380.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Sant Ana, 749 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 360.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Raul Pompéia, 77 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0840559,
-            -50.1535132
-        ],
-        "valor": 380.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Conrado Schiffer, 20 - Estrela - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1058879,
-            -50.1708003
-        ],
-        "valor": 400.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Jaime Pinto Rosas, 56 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0805128,
-            -50.1555098
-        ],
-        "valor": 400.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0805128,
-            -50.1555098
-        ],
-        "valor": 300.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Professora Braulina Carneiro dos Santos - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 330.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Balduíno Taques, 480 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0869061,
-            -50.1649089
-        ],
-        "valor": 300.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 300.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 300.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Antônio Saad, 51 - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Marechal Deodoro da Fonseca, 281 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 150.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Marechal Deodoro da Fonseca, 281 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 150.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Quinze de Novembro, 512 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 150.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Marechal Deodoro da Fonseca, 281 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 150.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Marechal Deodoro da Fonseca, 281 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 150.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Otília Guimarães, 365 - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 250.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Souza Naves, 4177 - Chapada - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0811243,
-            -50.1921601
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Visconde de Mauá, 3460 - Colônia Dona Luiza - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0811243,
-            -50.1921601
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Marechal Deodoro da Fonseca, 281 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 150.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua João Silvio de Lara Machado - Jardim Carvalho - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Visconde de Nacar - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.1005016,
-            -50.1630759
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Ernesto Vilela - Nova Rússia - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0842544,
-            -50.1774441
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Nicolau Kluppel Neto, 1454 - Contorno - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.095,
-            -50.16194
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Anita Garibaldi - Orfãs - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0654557,
-            -50.159161
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Euzébio de Queiroz - Uvaranas - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0654557,
-            -50.159161
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Ernesto Vilela - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0892012,
-            -50.1673324
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Ernesto Vilela, 458 - Centro - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0892012,
-            -50.1673324
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Avenida Ernesto Vilela, 600 - Nova Rússia - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.0892012,
-            -50.1673324
-        ],
-        "valor": 0.0
-    },
-    {
-        "data": "08/02/2019",
-        "endereco": "Rua Senador Flávio Carvalho Guimarães, 701 - Boa Vista - Ponta Grossa/PR",
-        "geoLocation": [
-            -25.074446,
-            -50.181607
-        ],
-        "valor": 0.0
+        "link": "https://procureimovel.com.br/imovel/apartamento-venda-ponta-grossa-centro-base-forte-imoveis-ref-96058-4",
+        "valor": 629000.0
     }
 ]

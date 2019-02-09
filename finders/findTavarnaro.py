@@ -12,7 +12,7 @@ anuncios = []
 logradouros = [] 
 
 class Anuncio:
-    def __init__(self, end, rua, numero, bairro, cidade, valor, endMath):
+    def __init__(self, end, rua, numero, bairro, cidade, valor, endMath, link):
         self.endereco = end
         self.logradouro = rua
         self.bairro = bairro
@@ -23,6 +23,7 @@ class Anuncio:
         if numero != 0:
             self.numero = numero
         self.enderecoMatch = endMath
+        self.link = link
 
     def toJSON(self):
         return json.dumps(self, ensure_ascii=False, default=lambda o: o.__dict__,sort_keys=True, indent=4)
@@ -81,12 +82,12 @@ def buscaRuaPG(endEncontrado):
     
     n_max = max(pontuacao, key=int)
     n_pos = pontuacao.index(n_max)
-    print("Maior valor: %d" % n_max)
-    print("Indice: %d" % n_pos)
-    print("Rua: %s" % logradouros[n_pos])
-    print("Rua encontrada: %s" % endEncontrado)
+    #print("Maior valor: %d" % n_max)
+    #print("Indice: %d" % n_pos)
+    #print("Rua: %s" % logradouros[n_pos])
+    #print("Rua encontrada: %s" % endEncontrado)
 
-    print("-----------------------------")
+    #print("-----------------------------")
 
     return (n_max, logradouros[n_pos])
 
@@ -96,7 +97,7 @@ def imovel(i, j):
  
         data = r.html.absolute_links
  
-        print(data)
+        #print(data)
         for d in data:
             re = session.get(d)
  
@@ -108,7 +109,7 @@ def imovel(i, j):
                 (pont, endMatch) = buscaRuaPG(end.text)
                 if pont >= 40 and precoAnuncio > 0:
                     (rua, numero, bairro, cidade) = estruturandoEndereco(end.text)
-                    anuncio = Anuncio(end.text, rua, numero, bairro, cidade, precoAnuncio, endMatch)
+                    anuncio = Anuncio(end.text, rua, numero, bairro, cidade, precoAnuncio, endMatch, d)
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
             i += 1
