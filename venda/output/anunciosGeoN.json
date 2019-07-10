@@ -1,0 +1,3810 @@
+[
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Roberto de Jesus Portella",
+            "numero": "421"
+        },
+        "enderecoAnuncio": "Rua Doutor Roberto de Jesus Portella, 421 - Apto 25 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Cyro de Lima Garcia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390098.001/apartamento-padrao-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0718882,
+                -50.1553968
+            ],
+            "type": "Point"
+        },
+        "ref": "390098.001",
+        "valor": 247000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Leopoldo Guimarães da Cunha",
+            "numero": "234"
+        },
+        "enderecoAnuncio": "Rua Doutor Leopoldo Guimarães da Cunha, 234 - em construção - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Leopoldo Guimarães da Cunha\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391461.001/apartamento-padrao-4-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1121192,
+                -50.1509006
+            ],
+            "type": "Point"
+        },
+        "ref": "391461.001",
+        "valor": 1700000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Neves",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Hanna Mtamos Razouk",
+            "numero": "449"
+        },
+        "enderecoAnuncio": "Rua Hanna Mtamos Razouk, 449 - Neves/Neves - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Hanna Mtanos Razouk\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391242.001/casa-padrao-2-dormitorios-neves-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0707308,
+                -50.1280216
+            ],
+            "type": "Point"
+        },
+        "ref": "391242.001",
+        "valor": 230000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Venezuela",
+            "numero": "167"
+        },
+        "enderecoAnuncio": "Rua Venezuela, 167 - Duplex - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Venezuela\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391462.001/cobertura-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1107018,
+                -50.1562594
+            ],
+            "type": "Point"
+        },
+        "ref": "391462.001",
+        "valor": 1100000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 194 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Colares\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.017/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390580.017",
+        "valor": 420000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Octávio de Carvalho",
+            "numero": "1377"
+        },
+        "enderecoAnuncio": "Rua Octávio de Carvalho, 1377 - Casa nº 1377 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Octávio de Carvalho\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390373.001/casa-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0774227,
+                -50.1513934
+            ],
+            "type": "Point"
+        },
+        "ref": "390373.001",
+        "valor": 615000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Joaquim de Paula Xavier",
+            "numero": "1500"
+        },
+        "enderecoAnuncio": "Rua Joaquim de Paula Xavier, 1500 - Lote nº 144 - Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Joaquim de Paula Xavier\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390748.001/loteamento-condominio-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.11899285,
+                -50.1748244041546
+            ],
+            "type": "Point"
+        },
+        "ref": "390748.001",
+        "valor": 590000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Leopoldo Guimarães da Cunha",
+            "numero": "1000"
+        },
+        "enderecoAnuncio": "Rua Doutor Leopoldo Guimarães da Cunha, 1000 - Casa 64 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Leopoldo Guimarães da Cunha\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390742.001/casa-condominio-4-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1121192,
+                -50.1509006
+            ],
+            "type": "Point"
+        },
+        "ref": "390742.001",
+        "valor": 1915000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Neves",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Fernando Machuca",
+            "numero": "21"
+        },
+        "enderecoAnuncio": "Rua Fernando Machuca, 21 - Neves/Neves - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Fernando Machuca\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391191.001/casa-padrao-2-dormitorios-neves-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0694101,
+                -50.1269686
+            ],
+            "type": "Point"
+        },
+        "ref": "391191.001",
+        "valor": 200000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Olarias",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Eunice dos Reis",
+            "numero": "173"
+        },
+        "enderecoAnuncio": "Avenida Eunice dos Reis, 173 - 3 Unidades Disponíveis - Olarias/Olarias - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Fernandes Pinheiro\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391136.001/sobrado-conjugado-condomnio-residencial-zahailo-ii-3-dormitorios-olarias-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.116585,
+                -50.1348384
+            ],
+            "type": "Point"
+        },
+        "ref": "391136.001",
+        "valor": 230000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Anita Garibaldi",
+            "numero": "1979"
+        },
+        "enderecoAnuncio": "Avenida Anita Garibaldi, 1979 - Jardim Carvalho/Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Anita Garibaldi\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391492.001/casa-condominio-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0654557,
+                -50.159161
+            ],
+            "type": "Point"
+        },
+        "ref": "391492.001",
+        "valor": 1700000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Ronda",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Marquês do Paraná",
+            "numero": "577"
+        },
+        "enderecoAnuncio": "Rua Marquês do Paraná, 577 - Apto 44-B - Ronda/Ronda - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Marquês do Paraná\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390687.001/apartamento-padrao-2-dormitorios-ronda-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0978618,
+                -50.1732042
+            ],
+            "type": "Point"
+        },
+        "ref": "390687.001",
+        "valor": 200000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "890"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 890 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Colares\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390890.001/casa-comercial-5-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390890.001",
+        "valor": 600000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Saldanha da Gama",
+            "numero": "249"
+        },
+        "enderecoAnuncio": "Rua Saldanha da Gama, 249 - cobertura 204 - Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Saldanha da Gama\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391133.002/cobertura-edifcio-palazzo-ducale-4-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0816084,
+                -50.167702
+            ],
+            "type": "Point"
+        },
+        "ref": "391133.002",
+        "valor": 1340000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Boa Vista",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Avelino Antônio Vieira",
+            "numero": "132"
+        },
+        "enderecoAnuncio": "Rua Avelino Antônio Vieira, 132 - Boa Vista/Boa Vista - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Avelino Antônio Vieira\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391272.001/casa-padrao-3-dormitorios-boa-vista-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0772326,
+                -50.191799
+            ],
+            "type": "Point"
+        },
+        "ref": "391272.001",
+        "valor": 600000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Capitão Benedito Lopes de Bragança",
+            "numero": "203"
+        },
+        "enderecoAnuncio": "Rua Capitão Benedito Lopes de Bragança, 203 - Sobrado 11 - Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Capitão Benedito Lopes Bragança\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390071.001/casa-condominio-condomnio-residencial-estrela-da-amrica-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1079455,
+                -50.1713243
+            ],
+            "type": "Point"
+        },
+        "ref": "390071.001",
+        "valor": 270000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Olavo Bilac",
+            "numero": "200"
+        },
+        "enderecoAnuncio": "Rua Olavo Bilac, 200 - Lote 69 Quadra 10 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Olavo Bilac\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390598.001/terreno-urbano-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1023577,
+                -50.1460455
+            ],
+            "type": "Point"
+        },
+        "ref": "390598.001",
+        "valor": 650000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Comendador Miro",
+            "numero": "1471"
+        },
+        "enderecoAnuncio": "Rua Comendador Miro, 1471 - Apto 27 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Comendador Miró\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390197.008/apartamento-padrao-edifcio-olmpia-1-dormitorio-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0925183,
+                -50.1608386
+            ],
+            "type": "Point"
+        },
+        "ref": "390197.008",
+        "valor": 215000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 86 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Lions Clube de Ponta Grossa\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390581.006/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390581.006",
+        "valor": 426000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Antônio João",
+            "numero": "270"
+        },
+        "enderecoAnuncio": "Rua Antônio João, 270 - Apto 604 - Orfãs/Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Antônio Moro\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390949.005/apartamento-padrao-apartamentos-edifcio-maison-vert-2-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0762601,
+                -50.1597519
+            ],
+            "type": "Point"
+        },
+        "ref": "390949.005",
+        "valor": 218791.17
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 76 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Lions Clube de Ponta Grossa\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390581.004/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390581.004",
+        "valor": 423000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Leopoldo Guimarães da Cunha",
+            "numero": "1551"
+        },
+        "enderecoAnuncio": "Rua Doutor Leopoldo Guimarães da Cunha, 1551 - Casa nº 1551 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Leopoldo Guimarães da Cunha\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391001.001/casa-condominio-4-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1121192,
+                -50.1509006
+            ],
+            "type": "Point"
+        },
+        "ref": "391001.001",
+        "valor": 1800000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Vidal de Negreiros",
+            "numero": "899"
+        },
+        "enderecoAnuncio": "Rua Vidal de Negreiros, 899 - Cobertura nº 54 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Vidal de Negreros\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391057.001/cobertura-2-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1118869,
+                -50.1617831
+            ],
+            "type": "Point"
+        },
+        "ref": "391057.001",
+        "valor": 625000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Vidal de Negreiros",
+            "numero": "899"
+        },
+        "enderecoAnuncio": "Rua Vidal de Negreiros, 899 - Apto 25 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Vidal de Negreros\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391055.001/apartamento-padrao-edifcio-costa-esmeralda-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1118869,
+                -50.1617831
+            ],
+            "type": "Point"
+        },
+        "ref": "391055.001",
+        "valor": 425000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua México"
+        },
+        "enderecoAnuncio": "Rua México, s/n - Apto 34 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua México\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391079.001/apartamento-padrao-edifcio-monterrey-palace-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1021124,
+                -50.1627974
+            ],
+            "type": "Point"
+        },
+        "ref": "391079.001",
+        "valor": 415000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Saldanha da Gama",
+            "numero": "249"
+        },
+        "enderecoAnuncio": "Rua Saldanha da Gama, 249 - apto 51 - Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Saldanha da Gama\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391123.001/apartamento-padrao-edifcio-palazzo-ducale-apartamento-padro-3-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0816084,
+                -50.167702
+            ],
+            "type": "Point"
+        },
+        "ref": "391123.001",
+        "valor": 661000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 144 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Colares\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.022/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390580.022",
+        "valor": 405000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Lauro Marcondes Ferreira",
+            "numero": "440"
+        },
+        "enderecoAnuncio": "Rua Lauro Marcondes Ferreira, 440 - Apto 22 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Sebastião Marcondes Ferreira\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390414.003/apartamento-padrao-edifcio-piazza-allegra-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0789383,
+                -50.1543971
+            ],
+            "type": "Point"
+        },
+        "ref": "390414.003",
+        "valor": 578000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Neves",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Canela",
+            "numero": "109"
+        },
+        "enderecoAnuncio": "Rua Canela, 109 - Lote 109 Quadra 05 - Uvaranas/Neves - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Caneleira\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390535.001/casa-condominio-4-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0816053,
+                -50.1253551
+            ],
+            "type": "Point"
+        },
+        "ref": "390535.001",
+        "valor": 1200000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 183 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Colares\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.015/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390580.015",
+        "valor": 383000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Engenheiro Schamber",
+            "numero": "452"
+        },
+        "enderecoAnuncio": "Rua Engenheiro Schamber, 452 - Apto n. 102 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Engenheiro Beltrão\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391144.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1010561,
+                -50.1581476
+            ],
+            "type": "Point"
+        },
+        "ref": "391144.001",
+        "valor": 1100000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua México"
+        },
+        "enderecoAnuncio": "Rua México, s/n - Apto 23 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua México\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391077.001/apartamento-padrao-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1021124,
+                -50.1627974
+            ],
+            "type": "Point"
+        },
+        "ref": "391077.001",
+        "valor": 415000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Joaquim de Paula Xavier",
+            "numero": "1900"
+        },
+        "enderecoAnuncio": "Rua Joaquim de Paula Xavier, 1900 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Joaquim de Paula Xavier\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391459.001/casa-condominio-4-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.11899285,
+                -50.1748244041546
+            ],
+            "type": "Point"
+        },
+        "ref": "391459.001",
+        "valor": 2400000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Professora Izaura Torres Cruz",
+            "numero": "541"
+        },
+        "enderecoAnuncio": "Rua Professora Izaura Torres Cruz, 541 - Apto 104 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Professora Izaura Torres Cruz\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390378.001/apartamento-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0854411,
+                -50.1545714
+            ],
+            "type": "Point"
+        },
+        "ref": "390378.001",
+        "valor": 1150000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Machado de Assis",
+            "numero": "256"
+        },
+        "enderecoAnuncio": "Rua Machado de Assis, 256 - Apto 14 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Machado de Assis\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390844.001/apartamento-padrao-2-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0915693,
+                -50.1435856
+            ],
+            "type": "Point"
+        },
+        "ref": "390844.001",
+        "valor": 255000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 153 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Colares\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.023/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390580.023",
+        "valor": 384000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 96 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Lions Clube de Ponta Grossa\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390581.017/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390581.017",
+        "valor": 429000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Saldanha da Gama",
+            "numero": "249"
+        },
+        "enderecoAnuncio": "Rua Saldanha da Gama, 249 - cobertura 201 - Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Saldanha da Gama\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391133.001/cobertura-edifcio-palazzo-ducale-4-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0816084,
+                -50.167702
+            ],
+            "type": "Point"
+        },
+        "ref": "391133.001",
+        "valor": 1180000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Amazonas",
+            "numero": "12"
+        },
+        "enderecoAnuncio": "Rua Amazonas, sn - 12 - Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Lions Clube de Ponta Grossa\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/680001.002/apartamento-padrao-life-residence-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1063478,
+                -50.1629461
+            ],
+            "type": "Point"
+        },
+        "ref": "680001.002",
+        "valor": 410724.03
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Órfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Anita Garibaldi",
+            "numero": "1555"
+        },
+        "enderecoAnuncio": "Avenida Anita Garibaldi, 1555 - Casa nº 14 - Orfãs/Órfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Anita Garibaldi\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390697.001/casa-condominio-4-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0654557,
+                -50.159161
+            ],
+            "type": "Point"
+        },
+        "ref": "390697.001",
+        "valor": 3990000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Coronel Bittencourt"
+        },
+        "enderecoAnuncio": "Rua Coronel Bittencourt, s/n - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Coronel Theodoro Rosas\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390419.001/sala-comercial-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0927812,
+                -50.1669586
+            ],
+            "type": "Point"
+        },
+        "ref": "390419.001",
+        "valor": 2080000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Casemiro de Abreu",
+            "numero": "183"
+        },
+        "enderecoAnuncio": "Rua Casemiro de Abreu, 183 - Ap. 101 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Casemiro de Abreu\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391131.001/apartamento-padrao-edifcio-casemiro-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0907107,
+                -50.1414174
+            ],
+            "type": "Point"
+        },
+        "ref": "391131.001",
+        "valor": 230000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Balduíno Taques",
+            "numero": "503"
+        },
+        "enderecoAnuncio": "Rua Balduíno Taques, 503 - Apto 42 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Balduíno Taques\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390398.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0869061,
+                -50.1649089
+            ],
+            "type": "Point"
+        },
+        "ref": "390398.001",
+        "valor": 1000000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Órfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Rio Grande do Sul",
+            "numero": "650"
+        },
+        "enderecoAnuncio": "Rua Rio Grande do Sul, 650 - Apto 22 - Orfãs/Órfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Rio Grande do Norte\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390943.001/apartamento-padrao-3-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0797705,
+                -50.1625802
+            ],
+            "type": "Point"
+        },
+        "ref": "390943.001",
+        "valor": 410000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Leopoldo Guimarães da Cunha",
+            "numero": "234"
+        },
+        "enderecoAnuncio": "Rua Doutor Leopoldo Guimarães da Cunha, 234 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Leopoldo Guimarães da Cunha\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391467.001/apartamento-padrao-4-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1121192,
+                -50.1509006
+            ],
+            "type": "Point"
+        },
+        "ref": "391467.001",
+        "valor": 1600000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Colônia Dona Luíza",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Nunes Machado",
+            "numero": "60"
+        },
+        "enderecoAnuncio": "Rua Nunes Machado, 60 - Casa nº 60 - Oficinas/Colônia Dona Luíza - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Nunes Machado\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391014.001/casa-condominio-5-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1369204,
+                -50.1578633
+            ],
+            "type": "Point"
+        },
+        "ref": "391014.001",
+        "valor": 1550000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Santos Dumont",
+            "numero": "130"
+        },
+        "enderecoAnuncio": "Rua Santos Dumont, 130 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Santos Dumont\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391476.001/apartamento-padrao-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1015568,
+                -50.1564428
+            ],
+            "type": "Point"
+        },
+        "ref": "391476.001",
+        "valor": 424000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Carneiro Ribeiro",
+            "numero": "58"
+        },
+        "enderecoAnuncio": "Rua Carneiro Ribeiro, 58 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Carneiro Ribeiro\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391240.001/casa-padrao-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0868888,
+                -50.1175762
+            ],
+            "type": "Point"
+        },
+        "ref": "391240.001",
+        "valor": 220000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Paula Xavier",
+            "numero": "1273"
+        },
+        "enderecoAnuncio": "Rua Doutor Paula Xavier, 1273 - Apto 162 - Estrela/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Paula Xavier\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391012.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1023192,
+                -50.1610973
+            ],
+            "type": "Point"
+        },
+        "ref": "391012.001",
+        "valor": 1000000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Santos Dumont",
+            "numero": "130"
+        },
+        "enderecoAnuncio": "Rua Santos Dumont, 130 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Santos Dumont\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390178.001/apartamento-padrao-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1015568,
+                -50.1564428
+            ],
+            "type": "Point"
+        },
+        "ref": "390178.001",
+        "valor": 395000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Luiz de Camões",
+            "numero": "65"
+        },
+        "enderecoAnuncio": "Rua Luiz de Camões, 65 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Luís de Camões\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390881.001/armazem-barracao-prdio-comercial-bairro-uvaranas-4-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0897182,
+                -50.1396774
+            ],
+            "type": "Point"
+        },
+        "ref": "390881.001",
+        "valor": 2200000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Afonso Celso",
+            "numero": "3055"
+        },
+        "enderecoAnuncio": "Rua Afonso Celso, 3055 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Afonso Celso\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391355.001/sobrado-conjugado-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0848855,
+                -50.1467086
+            ],
+            "type": "Point"
+        },
+        "ref": "391355.001",
+        "valor": 390000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua México"
+        },
+        "enderecoAnuncio": "Rua México, s/n - Apto 14 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua México\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391074.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1021124,
+                -50.1627974
+            ],
+            "type": "Point"
+        },
+        "ref": "391074.001",
+        "valor": 445000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Emílio Andreatta",
+            "numero": "528"
+        },
+        "enderecoAnuncio": "Rua Emílio Andreatta, 528 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Emílio Andreatta\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391434.001/sobrado-condominio-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0742369,
+                -50.1545485
+            ],
+            "type": "Point"
+        },
+        "ref": "391434.001",
+        "valor": 245000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Olarias",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Ermelino de Leão",
+            "numero": "80"
+        },
+        "enderecoAnuncio": "Rua Ermelino de Leão, 80 - Apto 34 - Olarias - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Ermelino de Leão\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390397.001/apartamento-padrao-4-dormitorios-olarias-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1023922,
+                -50.1560042
+            ],
+            "type": "Point"
+        },
+        "ref": "390397.001",
+        "valor": 1100000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Nestor Guimarães",
+            "numero": "107"
+        },
+        "enderecoAnuncio": "Rua Nestor Guimarães, 107 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Nestor Guimarães\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391383.001/sala-comercial-estrela-ponta-grossa-PR/locacao",
+        "localizacao": {
+            "coordenadas": [
+                -25.1038897,
+                -50.1619006
+            ],
+            "type": "Point"
+        },
+        "ref": "391383.001",
+        "valor": 1500.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Santa Paula",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Camélia",
+            "numero": "145"
+        },
+        "enderecoAnuncio": "Rua Camélia, 145 - Contorno/Santa Paula - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Camélia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391452.001/casa-padrao-4-dormitorios-contorno-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0925314,
+                -50.2044457
+            ],
+            "type": "Point"
+        },
+        "ref": "391452.001",
+        "valor": 260000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Saldanha da Gama",
+            "numero": "249"
+        },
+        "enderecoAnuncio": "Rua Saldanha da Gama, 249 - apto 61 - Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Saldanha da Gama\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391123.004/apartamento-padrao-edifcio-palazzo-ducale-apartamento-padro-3-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0816084,
+                -50.167702
+            ],
+            "type": "Point"
+        },
+        "ref": "391123.004",
+        "valor": 667000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Doutor Vicente Machado",
+            "numero": "777"
+        },
+        "enderecoAnuncio": "Avenida Doutor Vicente Machado, 777 - Apto 81 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Doutor Vicente Machado\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390372.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0949846,
+                -50.1596821
+            ],
+            "type": "Point"
+        },
+        "ref": "390372.001",
+        "valor": 390000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Nova Rússia",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Pedro Álvares Cabral",
+            "numero": "200"
+        },
+        "enderecoAnuncio": "Rua Pedro Álvares Cabral, 200 - Apto 81 - Nova Rússia/Nova Rússia - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Pedro Álvares Cabral\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391096.001/duplex-2-dormitorios-nova-russia-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.08068,
+                -50.183136
+            ],
+            "type": "Point"
+        },
+        "ref": "391096.001",
+        "valor": 1100000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Capitão Benedito Lopes de Bragança",
+            "numero": "417"
+        },
+        "enderecoAnuncio": "Rua Capitão Benedito Lopes de Bragança, 417 - Casa 05 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Capitão Benedito Lopes Bragança\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391552.001/casa-condominio-2-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1079455,
+                -50.1713243
+            ],
+            "type": "Point"
+        },
+        "ref": "391552.001",
+        "valor": 250000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Bonifácio Vilela",
+            "numero": "1168"
+        },
+        "enderecoAnuncio": "Avenida Bonifácio Vilela, 1168 - Casa nº 1168 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Bonifácio Vilela\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390953.001/casa-padrao-4-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0833405,
+                -50.1604907
+            ],
+            "type": "Point"
+        },
+        "ref": "390953.001",
+        "valor": 1500000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Sílvia Machado de Souza",
+            "numero": "751"
+        },
+        "enderecoAnuncio": "Rua Sílvia Machado de Souza, 751 - Unidade 06 - esquina - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Sílvia Machado de Souza\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391544.001/casa-condominio-2-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1084987,
+                -50.1717856
+            ],
+            "type": "Point"
+        },
+        "ref": "391544.001",
+        "valor": 225000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Vila Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Silva Jardim",
+            "numero": "600"
+        },
+        "enderecoAnuncio": "Rua Silva Jardim, Lado nº 600 - Cobertura nº 302 - Centro/Vila Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Silva Jardim\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391011.001/cobertura-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1071749,
+                -50.1591816
+            ],
+            "type": "Point"
+        },
+        "ref": "391011.001",
+        "valor": 2900000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Amazonas",
+            "numero": "11"
+        },
+        "enderecoAnuncio": "Rua Amazonas, sn - 11 - Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Lions Clube de Ponta Grossa\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/680001.001/apartamento-padrao-life-residence-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1063478,
+                -50.1629461
+            ],
+            "type": "Point"
+        },
+        "ref": "680001.001",
+        "valor": 431535.33
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Olarias",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Ermelino de Leão",
+            "numero": "80"
+        },
+        "enderecoAnuncio": "Rua Ermelino de Leão, 80 - Cobertura 131 - Olarias - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Ermelino de Leão\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390396.001/cobertura-4-dormitorios-olarias-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1023922,
+                -50.1560042
+            ],
+            "type": "Point"
+        },
+        "ref": "390396.001",
+        "valor": 2300000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 164 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Colares\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.012/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390580.012",
+        "valor": 411000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Sant`Ana",
+            "numero": "500"
+        },
+        "enderecoAnuncio": "Rua Sant`Ana, 500 - Apto 53 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Lions Clube de Ponta Grossa\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390244.001/apartamento-padrao-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0964641,
+                -50.1594616
+            ],
+            "type": "Point"
+        },
+        "ref": "390244.001",
+        "valor": 260000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Siqueira Campos",
+            "numero": "2000"
+        },
+        "enderecoAnuncio": "Rua Siqueira Campos, 2000 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Siqueira Campos\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391194.001/casa-padrao-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1046197,
+                -50.1257152
+            ],
+            "type": "Point"
+        },
+        "ref": "391194.001",
+        "valor": 200000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida União Pan-americana",
+            "numero": "52"
+        },
+        "enderecoAnuncio": "Avenida União Pan-americana, 52 - Colônia Dona Luíza/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida União Panamericana\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391110.001/casa-condominio-3-dormitorios-colonia-dona-luiza-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1213341,
+                -50.1618915
+            ],
+            "type": "Point"
+        },
+        "ref": "391110.001",
+        "valor": 1150000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Anita Garibaldi",
+            "numero": "1661"
+        },
+        "enderecoAnuncio": "Avenida Anita Garibaldi, 1661 - Jardim Carvalho/Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Anita Garibaldi\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391038.001/sobrado-condominio-4-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0654557,
+                -50.159161
+            ],
+            "type": "Point"
+        },
+        "ref": "391038.001",
+        "valor": 2890000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Rio Grande do Sul",
+            "numero": "650"
+        },
+        "enderecoAnuncio": "Rua Rio Grande do Sul, 650 - Apto 21 - Orfãs/Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Rio Grande do Norte\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390944.001/apartamento-padrao-3-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0797705,
+                -50.1625802
+            ],
+            "type": "Point"
+        },
+        "ref": "390944.001",
+        "valor": 410000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Canaã",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Jacob Afonso Horn",
+            "numero": "435"
+        },
+        "enderecoAnuncio": "Rua Jacob Afonso Horn, 435 - Contorno/Canaã - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Jacob Afonso Horn\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391458.001/casa-condominio-2-dormitorios-contorno-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.113306,
+                -50.2086022
+            ],
+            "type": "Point"
+        },
+        "ref": "391458.001",
+        "valor": 380000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 193 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Colares\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.016/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390580.016",
+        "valor": 396000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Joaquim de Paula Xavier",
+            "numero": "1100"
+        },
+        "enderecoAnuncio": "Rua Joaquim de Paula Xavier, 1100 - Casa 01 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Joaquim de Paula Xavier\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391234.001/casa-condominio-4-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.11899285,
+                -50.1748244041546
+            ],
+            "type": "Point"
+        },
+        "ref": "391234.001",
+        "valor": 4000000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua SantAna",
+            "numero": "507"
+        },
+        "enderecoAnuncio": "Rua SantAna, 507 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Santana\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391360.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0964641,
+                -50.1594616
+            ],
+            "type": "Point"
+        },
+        "ref": "391360.001",
+        "valor": 570000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 125 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Cyro de Lima Garcia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390581.008/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390581.008",
+        "valor": 427000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Venezuela",
+            "numero": "167"
+        },
+        "enderecoAnuncio": "Rua Venezuela, 167 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Venezuela\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391499.001/apartamento-padrao-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1107018,
+                -50.1562594
+            ],
+            "type": "Point"
+        },
+        "ref": "391499.001",
+        "valor": 650000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Coronel Dulcídio",
+            "numero": "253"
+        },
+        "enderecoAnuncio": "Rua Coronel Dulcídio, 253 - Apto 171-A (TORRE A) - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Coronel Cláudio\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390838.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0933553,
+                -50.1615922
+            ],
+            "type": "Point"
+        },
+        "ref": "390838.001",
+        "valor": 585000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Professora Izaura Torres Cruz",
+            "numero": "255"
+        },
+        "enderecoAnuncio": "Rua Professora Izaura Torres Cruz, 255 - ap. 21 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Professora Izaura Torres Cruz\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/1390005.006/apartamento-padrao-palazzo-modena-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0854411,
+                -50.1545714
+            ],
+            "type": "Point"
+        },
+        "ref": "1390005.006",
+        "valor": 270000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua México"
+        },
+        "enderecoAnuncio": "Rua México, s/n - Cobertura 135 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Marco Antônio Pereira\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391082.002/cobertura-edifcio-monterrey-palace-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1021124,
+                -50.1627974
+            ],
+            "type": "Point"
+        },
+        "ref": "391082.002",
+        "valor": 650000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Xavier da Silva",
+            "numero": "440"
+        },
+        "enderecoAnuncio": "Rua Xavier da Silva, 440 - Apartamento 42 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Odete da Silva Lopes\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391511.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR/locacao",
+        "localizacao": {
+            "coordenadas": [
+                -25.0859245,
+                -50.1635624
+            ],
+            "type": "Point"
+        },
+        "ref": "391511.001",
+        "valor": 1800.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Professora Izaura Torres Cruz",
+            "numero": "541"
+        },
+        "enderecoAnuncio": "Rua Professora Izaura Torres Cruz, 541 - Apto 101 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Professora Izaura Torres Cruz\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391089.001/apartamento-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0854411,
+                -50.1545714
+            ],
+            "type": "Point"
+        },
+        "ref": "391089.001",
+        "valor": 1100000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Órfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Herculano de Freitas",
+            "numero": "424"
+        },
+        "enderecoAnuncio": "Rua Herculano de Freitas, 424 - Apto 01 - Jardim Carvalho/Órfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Herculano de Freitas\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391090.001/apartamento-padrao-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0789893,
+                -50.1624063
+            ],
+            "type": "Point"
+        },
+        "ref": "391090.001",
+        "valor": 270000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Venezuela",
+            "numero": "44"
+        },
+        "enderecoAnuncio": "Rua Venezuela, 44 - Apto 1102 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Venezuela\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390981.003/apartamento-padrao-apartamentos-com-02-dormitrios-edifcio-grande-maison-2-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1107018,
+                -50.1562594
+            ],
+            "type": "Point"
+        },
+        "ref": "390981.003",
+        "valor": 421750.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Ana Rita",
+            "numero": "255"
+        },
+        "enderecoAnuncio": "Avenida Ana Rita, 255 - Apto 31 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Ana Rita\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391147.001/apartamento-padrao-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1027403,
+                -50.1425598
+            ],
+            "type": "Point"
+        },
+        "ref": "391147.001",
+        "valor": 270000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Siqueira Campos",
+            "numero": "3100"
+        },
+        "enderecoAnuncio": "Rua Siqueira Campos, 3100 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Siqueira Campos\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391222.001/sobrado-conjugado-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1046197,
+                -50.1257152
+            ],
+            "type": "Point"
+        },
+        "ref": "391222.001",
+        "valor": 620000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Ucrânia",
+            "numero": "1510"
+        },
+        "enderecoAnuncio": "Rua Ucrânia, 1510 - Unidade 03 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Ucrânia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391530.003/sobrado-padrao-condomnio-residencial-piet-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.086331,
+                -50.1279141
+            ],
+            "type": "Point"
+        },
+        "ref": "391530.003",
+        "valor": 239000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Leopoldo Guimarães da Cunha",
+            "numero": "234"
+        },
+        "enderecoAnuncio": "Rua Doutor Leopoldo Guimarães da Cunha, 234 - Apto 74-B - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Leopoldo Guimarães da Cunha\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390199.001/apartamento-padrao-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1121192,
+                -50.1509006
+            ],
+            "type": "Point"
+        },
+        "ref": "390199.001",
+        "valor": 590000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Augusto Ribas",
+            "numero": "369"
+        },
+        "enderecoAnuncio": "Rua Augusto Ribas, 369 - Apto 52 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Augusto Ribas\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390852.001/apartamento-padrao-4-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0973707,
+                -50.1601409
+            ],
+            "type": "Point"
+        },
+        "ref": "390852.001",
+        "valor": 550000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Santa Mônica",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Arnon",
+            "numero": "197"
+        },
+        "enderecoAnuncio": "Rua Arnon, 197 - 197 - Jardim Carvalho/Santa Mônica - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Armindo Kapp\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391468.001/casa-padrao-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0516124,
+                -50.1356509
+            ],
+            "type": "Point"
+        },
+        "ref": "391468.001",
+        "valor": 215000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Comendador Miró",
+            "numero": "1329"
+        },
+        "enderecoAnuncio": "Rua Comendador Miró, 1329 - Apto 124 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Comendador Miró\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390292.013/apartamento-padrao-edifcio-vale-do-sol-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0925183,
+                -50.1608386
+            ],
+            "type": "Point"
+        },
+        "ref": "390292.013",
+        "valor": 600000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 201 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Cyro de Lima Garcia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390582.003/cobertura-edifcio-benevento-residenziale-4-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390582.003",
+        "valor": 1030000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Prefeito Brasílio Ribas"
+        },
+        "enderecoAnuncio": "Rua Prefeito Brasílio Ribas, s/n - Apto 23 - Orfãs/Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Prefeito Brasílio Ribas\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390278.001/apartamento-padrao-edifcio-nob-plaza-3-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0833012,
+                -50.1673071
+            ],
+            "type": "Point"
+        },
+        "ref": "390278.001",
+        "valor": 640000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Leopoldo Guimarães da Cunha",
+            "numero": "155"
+        },
+        "enderecoAnuncio": "Rua Doutor Leopoldo Guimarães da Cunha, 155 - Quadra 09 Lote 35 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Leopoldo Guimarães da Cunha\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390767.001/casa-condominio-4-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1121192,
+                -50.1509006
+            ],
+            "type": "Point"
+        },
+        "ref": "390767.001",
+        "valor": 1400000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Herculano de Freitas",
+            "numero": "803"
+        },
+        "enderecoAnuncio": "Rua Herculano de Freitas, 803 - Sobrado 803-F - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Herculano de Freitas\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390605.001/casa-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.07938,
+                -50.1574018
+            ],
+            "type": "Point"
+        },
+        "ref": "390605.001",
+        "valor": 590000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Professora Izaura Torres Cruz",
+            "numero": "541"
+        },
+        "enderecoAnuncio": "Rua Professora Izaura Torres Cruz, 541 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Professora Izaura Torres Cruz\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391464.001/apartamento-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0854411,
+                -50.1545714
+            ],
+            "type": "Point"
+        },
+        "ref": "391464.001",
+        "valor": 1150000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Joaquim de Paula Xavier",
+            "numero": "1500"
+        },
+        "enderecoAnuncio": "Rua Joaquim de Paula Xavier, 1500 - Unidade 128 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Joaquim de Paula Xavier\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391553.001/casa-condominio-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.11899285,
+                -50.1748244041546
+            ],
+            "type": "Point"
+        },
+        "ref": "391553.001",
+        "valor": 2000000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Venezuela",
+            "numero": "167"
+        },
+        "enderecoAnuncio": "Rua Venezuela, 167 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Venezuela\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391430.001/apartamento-padrao-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1107018,
+                -50.1562594
+            ],
+            "type": "Point"
+        },
+        "ref": "391430.001",
+        "valor": 650000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Anita Garibaldi",
+            "numero": "2641"
+        },
+        "enderecoAnuncio": "Avenida Anita Garibaldi, 2641 - Apto 14 - Jardim Carvalho/Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Anita Garibaldi\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390032.003/apartamento-padrao-edifcio-trentino-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0654557,
+                -50.159161
+            ],
+            "type": "Point"
+        },
+        "ref": "390032.003",
+        "valor": 270000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Saldanha da Gama",
+            "numero": "249"
+        },
+        "enderecoAnuncio": "Rua Saldanha da Gama, 249 - apto 63 - Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Saldanha da Gama\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391123.005/apartamento-padrao-edifcio-palazzo-ducale-apartamento-padro-3-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0816084,
+                -50.167702
+            ],
+            "type": "Point"
+        },
+        "ref": "391123.005",
+        "valor": 617000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Augusto Canto",
+            "numero": "332"
+        },
+        "enderecoAnuncio": "Rua Augusto Canto, 332 - ap. 13 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Carlos de Carvalho\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/1390004.004/apartamento-padrao-la-provence-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.082874,
+                -50.1572531
+            ],
+            "type": "Point"
+        },
+        "ref": "1390004.004",
+        "valor": 239000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Theodoro Rosas",
+            "numero": "558"
+        },
+        "enderecoAnuncio": "Rua Theodoro Rosas, 558 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Coronel Theodoro Rosas\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391545.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0910345,
+                -50.1601921
+            ],
+            "type": "Point"
+        },
+        "ref": "391545.001",
+        "valor": 580000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Major Alceu Teixeira Pinto",
+            "numero": "100"
+        },
+        "enderecoAnuncio": "Rua Major Alceu Teixeira Pinto, 100 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Major Alceu Teixeira Pinto\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391396.001/casa-padrao-6-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1152806,
+                -50.1683596
+            ],
+            "type": "Point"
+        },
+        "ref": "391396.001",
+        "valor": 3200000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Colônia Dona Luíza",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua João Marcelino Mandalozzo",
+            "numero": "183"
+        },
+        "enderecoAnuncio": "Rua João Marcelino Mandalozzo, 183 - Casa 05 - Colônia Dona Luíza/Colônia Dona Luíza - Ponta Grossa/PR",
+        "enderecoMatch": "Rua João Marcelino Madalozzo\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391250.001/casa-condominio-3-dormitorios-colonia-dona-luiza-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1248019,
+                -50.1645444
+            ],
+            "type": "Point"
+        },
+        "ref": "391250.001",
+        "valor": 220000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Paula Xavier",
+            "numero": "1301"
+        },
+        "enderecoAnuncio": "Rua Doutor Paula Xavier, 1301 - Cobertura nº 241 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Paula Xavier\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391003.001/cobertura-4-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1023192,
+                -50.1610973
+            ],
+            "type": "Point"
+        },
+        "ref": "391003.001",
+        "valor": 4900000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Vidal de Negreiros",
+            "numero": "908"
+        },
+        "enderecoAnuncio": "Rua Vidal de Negreiros, 908 - Cobertura nº 31 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Vidal de Negreros\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391036.001/cobertura-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1118869,
+                -50.1617831
+            ],
+            "type": "Point"
+        },
+        "ref": "391036.001",
+        "valor": 1100000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua México"
+        },
+        "enderecoAnuncio": "Rua México, s/n - Apto 74 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua México\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391079.003/apartamento-padrao-edifcio-monterrey-palace-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1021124,
+                -50.1627974
+            ],
+            "type": "Point"
+        },
+        "ref": "391079.003",
+        "valor": 435000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Desembargador Joaquim Ferreira Guimarães",
+            "numero": "22"
+        },
+        "enderecoAnuncio": "Rua Desembargador Joaquim Ferreira Guimarães, 22 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Alceu Dejar Marques Guimarães\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390842.001/casa-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0819151,
+                -50.1602726
+            ],
+            "type": "Point"
+        },
+        "ref": "390842.001",
+        "valor": 2200000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Antônio João",
+            "numero": "270"
+        },
+        "enderecoAnuncio": "Rua Antônio João, 270 - na planta - Orfãs/Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Antônio Natel de Paula\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391258.001/apartamento-padrao-3-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0762601,
+                -50.1597519
+            ],
+            "type": "Point"
+        },
+        "ref": "391258.001",
+        "valor": 423894.3
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua General Osório",
+            "numero": "422"
+        },
+        "enderecoAnuncio": "Rua General Osório, 422 - Apto 701 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua General Osório\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391285.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1003501,
+                -50.1582394
+            ],
+            "type": "Point"
+        },
+        "ref": "391285.001",
+        "valor": 1700000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Gianna",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Pedro Lopes de Lara",
+            "numero": "165"
+        },
+        "enderecoAnuncio": "Rua Pedro Lopes de Lara, 165 - Casa nº 165 - Neves/Jardim Gianna - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Pedro Lopes de Lara\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391040.001/casa-padrao-2-dormitorios-neves-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0710733,
+                -50.1286218
+            ],
+            "type": "Point"
+        },
+        "ref": "391040.001",
+        "valor": 200000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Órfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Anita Garibaldi",
+            "numero": "1979"
+        },
+        "enderecoAnuncio": "Avenida Anita Garibaldi, 1979 - Casa nº 1979 - Jardim Carvalho/Órfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Anita Garibaldi\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391026.001/casa-condominio-4-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0654557,
+                -50.159161
+            ],
+            "type": "Point"
+        },
+        "ref": "391026.001",
+        "valor": 5250000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Roberto de Jesus Portella",
+            "numero": "421"
+        },
+        "enderecoAnuncio": "Rua Doutor Roberto de Jesus Portella, 421 - Apto 33 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Cyro de Lima Garcia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390097.002/apartamento-padrao-condomnio-edifcio-cristal-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0718882,
+                -50.1553968
+            ],
+            "type": "Point"
+        },
+        "ref": "390097.002",
+        "valor": 245000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Nilo Peçanha",
+            "numero": "448"
+        },
+        "enderecoAnuncio": "Rua Nilo Peçanha, 448 - ap. 501 - Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Nilo Peçanha\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/1390003.013/apartamento-padrao-real-de-turim-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.109008,
+                -50.1620515
+            ],
+            "type": "Point"
+        },
+        "ref": "1390003.013",
+        "valor": 440000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Doutor Francisco Burzio",
+            "numero": "117"
+        },
+        "enderecoAnuncio": "Avenida Doutor Francisco Burzio, 117 - Apto 72 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Doutor Carlito Moro\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390664.001/apartamento-padrao-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1197293,
+                -50.2039488
+            ],
+            "type": "Point"
+        },
+        "ref": "390664.001",
+        "valor": 270000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 202 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Cyro de Lima Garcia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390582.004/cobertura-edifcio-benevento-residenziale-4-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390582.004",
+        "valor": 1120000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Coronel Dulcídio",
+            "numero": "253"
+        },
+        "enderecoAnuncio": "Rua Coronel Dulcídio, 253 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Coronel Cláudio\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391204.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0933553,
+                -50.1615922
+            ],
+            "type": "Point"
+        },
+        "ref": "391204.001",
+        "valor": 400000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Comendador Miro",
+            "numero": "1471"
+        },
+        "enderecoAnuncio": "Rua Comendador Miro, 1471 - Apto 11 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Comendador Miró\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390197.001/apartamento-padrao-edifcio-olmpia-1-dormitorio-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0925183,
+                -50.1608386
+            ],
+            "type": "Point"
+        },
+        "ref": "390197.001",
+        "valor": 205000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Ronda",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Álvares de Azevedo",
+            "numero": "38"
+        },
+        "enderecoAnuncio": "Rua Álvares de Azevedo, 38-A - Sobrado 03 - Ronda/Ronda - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Álvares de Azevedo\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391034.001/sobrado-condominio-3-dormitorios-ronda-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1006813,
+                -50.1775159
+            ],
+            "type": "Point"
+        },
+        "ref": "391034.001",
+        "valor": 394000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Contorno",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Cirema Becker",
+            "numero": "148"
+        },
+        "enderecoAnuncio": "Rua Cirema Becker, 148 - Lote 148 - Contorno/Contorno - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Jorge Becher\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390638.001/terreno-urbano-contorno-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1061884,
+                -50.2214193
+            ],
+            "type": "Point"
+        },
+        "ref": "390638.001",
+        "valor": 600000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Daily Luiz Wambier",
+            "numero": "2412"
+        },
+        "enderecoAnuncio": "Rua Daily Luiz Wambier, 2412 - Jardim Carvalho/Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Dally Luis Wambier\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391411.001/apartamento-padrao-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0762601,
+                -50.1597519
+            ],
+            "type": "Point"
+        },
+        "ref": "391411.001",
+        "valor": 260000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Antônio João",
+            "numero": "270"
+        },
+        "enderecoAnuncio": "Rua Antônio João, 270 - Apto 503 - Orfãs/Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Antônio Moro\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390949.003/apartamento-padrao-apartamentos-edifcio-maison-vert-2-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0762601,
+                -50.1597519
+            ],
+            "type": "Point"
+        },
+        "ref": "390949.003",
+        "valor": 231548.67
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Emílio Andreatta",
+            "numero": "528"
+        },
+        "enderecoAnuncio": "Rua Emílio Andreatta, 528 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Emílio Andreatta\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391435.001/sobrado-conjugado-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0742369,
+                -50.1545485
+            ],
+            "type": "Point"
+        },
+        "ref": "391435.001",
+        "valor": 260000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Ana Rita",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Bartolomeu de Gusmão",
+            "numero": "340"
+        },
+        "enderecoAnuncio": "Rua Bartolomeu de Gusmão, 340 - Uvaranas/Ana Rita - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Bartolomeu de Gusmão\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391261.001/casa-padrao-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0879225,
+                -50.1519765
+            ],
+            "type": "Point"
+        },
+        "ref": "391261.001",
+        "valor": 200000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Travessa São Paulo",
+            "numero": "143"
+        },
+        "enderecoAnuncio": "Travessa São Paulo, 143 - Casa nº 143 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Travessa São Paulo\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390910.001/casa-padrao-4-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0915581,
+                -50.1361495
+            ],
+            "type": "Point"
+        },
+        "ref": "390910.001",
+        "valor": 380000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Francisco Ribas",
+            "numero": "386"
+        },
+        "enderecoAnuncio": "Rua Francisco Ribas, 386 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Francisco Rosas\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391389.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1155318,
+                -50.1625426
+            ],
+            "type": "Point"
+        },
+        "ref": "391389.001",
+        "valor": 600000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Verona",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Oldemar Cornélio Ianser",
+            "numero": "196"
+        },
+        "enderecoAnuncio": "Rua Oldemar Cornélio Ianser, 196 - Casa nº 196 - Contorno/Verona - Ponta Grossa/PR",
+        "enderecoMatch": "Rua oldimar Cornélio Ianser\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391020.001/casa-padrao-2-dormitorios-contorno-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0923649,
+                -50.2008194
+            ],
+            "type": "Point"
+        },
+        "ref": "391020.001",
+        "valor": 390000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Carlos Osternack",
+            "numero": "34"
+        },
+        "enderecoAnuncio": "Rua Carlos Osternack, 34 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Carlos Osternack\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391401.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1026321,
+                -50.1598103
+            ],
+            "type": "Point"
+        },
+        "ref": "391401.001",
+        "valor": 625000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Odorico Mendes",
+            "numero": "593"
+        },
+        "enderecoAnuncio": "Rua Odorico Mendes, 593 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Cândida Mendes Braz\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391448.001/casa-padrao-4-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0825018,
+                -50.1504017
+            ],
+            "type": "Point"
+        },
+        "ref": "391448.001",
+        "valor": 450000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua México"
+        },
+        "enderecoAnuncio": "Rua México, s/n - Cobertura 133 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Marco Antônio Pereira\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391084.001/cobertura-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1021124,
+                -50.1627974
+            ],
+            "type": "Point"
+        },
+        "ref": "391084.001",
+        "valor": 650000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Odorico Mendes",
+            "numero": "593"
+        },
+        "enderecoAnuncio": "Rua Odorico Mendes, 593 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Cândida Mendes Braz\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391395.001/casa-padrao-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0825018,
+                -50.1504017
+            ],
+            "type": "Point"
+        },
+        "ref": "391395.001",
+        "valor": 450000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Saldanha da Gama",
+            "numero": "249"
+        },
+        "enderecoAnuncio": "Rua Saldanha da Gama, 249 - apto 53 - Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Saldanha da Gama\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391123.003/apartamento-padrao-edifcio-palazzo-ducale-apartamento-padro-3-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0816084,
+                -50.167702
+            ],
+            "type": "Point"
+        },
+        "ref": "391123.003",
+        "valor": 611000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Nilo Peçanha",
+            "numero": "448"
+        },
+        "enderecoAnuncio": "Rua Nilo Peçanha, 448 - Apto 101 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Nilo Peçanha\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391032.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR/locacao",
+        "localizacao": {
+            "coordenadas": [
+                -25.109008,
+                -50.1620515
+            ],
+            "type": "Point"
+        },
+        "ref": "391032.001",
+        "valor": 2500.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Roberto de Jesus Portella",
+            "numero": "421"
+        },
+        "enderecoAnuncio": "Rua Doutor Roberto de Jesus Portella, 421 - Apto 22 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Cyro de Lima Garcia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390096.004/apartamento-padrao-edifcio-cristal-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0718882,
+                -50.1553968
+            ],
+            "type": "Point"
+        },
+        "ref": "390096.004",
+        "valor": 231000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Amazonas",
+            "numero": "53"
+        },
+        "enderecoAnuncio": "Rua Amazonas, sn - 53 - Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Lions Clube de Ponta Grossa\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/680001.014/apartamento-padrao-life-residence-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1063478,
+                -50.1629461
+            ],
+            "type": "Point"
+        },
+        "ref": "680001.014",
+        "valor": 449522.1
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 65 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Lions Clube de Ponta Grossa\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390581.003/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390581.003",
+        "valor": 549000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Benjamin Constant",
+            "numero": "1031"
+        },
+        "enderecoAnuncio": "Rua Benjamin Constant, 1031 - Apt 501 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Benjamin Constant\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391022.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.276012,
+                -50.2347057
+            ],
+            "type": "Point"
+        },
+        "ref": "391022.001",
+        "valor": 715000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Roberto de Jesus Portella",
+            "numero": "421"
+        },
+        "enderecoAnuncio": "Rua Doutor Roberto de Jesus Portella, 421 - Apto 21 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Cyro de Lima Garcia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390096.003/apartamento-padrao-edifcio-cristal-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0718882,
+                -50.1553968
+            ],
+            "type": "Point"
+        },
+        "ref": "390096.003",
+        "valor": 241000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Comendador Miró",
+            "numero": "1329"
+        },
+        "enderecoAnuncio": "Rua Comendador Miró, 1329 - Apto 94 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Comendador Miró\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390292.010/apartamento-padrao-edifcio-vale-do-sol-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0925183,
+                -50.1608386
+            ],
+            "type": "Point"
+        },
+        "ref": "390292.010",
+        "valor": 560000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Vidal de Negreiros",
+            "numero": "899"
+        },
+        "enderecoAnuncio": "Rua Vidal de Negreiros, 899 - Apto 53 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Vidal de Negreros\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391056.003/cobertura-coberturas-edifcio-costa-esmeralda-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1118869,
+                -50.1617831
+            ],
+            "type": "Point"
+        },
+        "ref": "391056.003",
+        "valor": 790000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 174 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Colares\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390580.014/apartamento-padrao-edifcio-benevento-residenziale-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390580.014",
+        "valor": 414000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Venezuela Apt 242",
+            "numero": "242"
+        },
+        "enderecoAnuncio": "Rua Venezuela Apt 242, 167 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Venezuela\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391475.001/apartamento-padrao-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1107018,
+                -50.1562594
+            ],
+            "type": "Point"
+        },
+        "ref": "391475.001",
+        "valor": 680000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua João Cecy Filho",
+            "numero": "1200"
+        },
+        "enderecoAnuncio": "Rua João Cecy Filho, 1200 - casa nº10 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor João Cecy Filho\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391160.001/casa-condominio-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.089094,
+                -50.1501558
+            ],
+            "type": "Point"
+        },
+        "ref": "391160.001",
+        "valor": 220000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Carlos Osternack - Apt 103",
+            "numero": "103"
+        },
+        "enderecoAnuncio": "Rua Carlos Osternack - Apt 103, 34 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Carlos Osternack\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391399.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1026321,
+                -50.1598103
+            ],
+            "type": "Point"
+        },
+        "ref": "391399.001",
+        "valor": 719000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Sete de Setembro",
+            "numero": "125"
+        },
+        "enderecoAnuncio": "Rua Sete de Setembro, 125 - Apartamento 71 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Sete de Setembro\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391539.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.089238,
+                -50.1590848
+            ],
+            "type": "Point"
+        },
+        "ref": "391539.001",
+        "valor": 680000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida General Carlos Cavalcanti",
+            "numero": "3233"
+        },
+        "enderecoAnuncio": "Avenida General Carlos Cavalcanti, 3233 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida General Carlos Cavalcanti\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391489.001/casa-padrao-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.09176825,
+                -50.1149123416309
+            ],
+            "type": "Point"
+        },
+        "ref": "391489.001",
+        "valor": 780000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Casemiro de Abreu",
+            "numero": "183"
+        },
+        "enderecoAnuncio": "Rua Casemiro de Abreu, 183 - Ap. 303 - Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Casemiro de Abreu\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390073.001/apartamento-padrao-edificio-casemiro-2-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0907107,
+                -50.1414174
+            ],
+            "type": "Point"
+        },
+        "ref": "390073.001",
+        "valor": 175000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Balduíno Taques",
+            "numero": "233"
+        },
+        "enderecoAnuncio": "Rua Balduíno Taques, 233 - Apartamento 34 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Balduíno Taques\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391547.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0869061,
+                -50.1649089
+            ],
+            "type": "Point"
+        },
+        "ref": "391547.001",
+        "valor": 450000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Padre João Lux"
+        },
+        "enderecoAnuncio": "Rua Padre João Lux, s/n - Apto 17 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Padre João Lux\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390950.006/apartamento-padrao-apartamentos-edifcio-rio-lena-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0974132,
+                -50.1538899
+            ],
+            "type": "Point"
+        },
+        "ref": "390950.006",
+        "valor": 165258.4
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua João Cecy Filho",
+            "numero": "1200"
+        },
+        "enderecoAnuncio": "Rua João Cecy Filho, 1200 - Sobrado nº 5 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor João Cecy Filho\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391161.001/sobrado-condominio-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.089094,
+                -50.1501558
+            ],
+            "type": "Point"
+        },
+        "ref": "391161.001",
+        "valor": 325000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Roberto de Jesus Portella",
+            "numero": "421"
+        },
+        "enderecoAnuncio": "Rua Doutor Roberto de Jesus Portella, 421 - Apto 35 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Cyro de Lima Garcia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390097.004/apartamento-padrao-condomnio-edifcio-cristal-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0718882,
+                -50.1553968
+            ],
+            "type": "Point"
+        },
+        "ref": "390097.004",
+        "valor": 314000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Balduíno Taques - Apt 71",
+            "numero": "71"
+        },
+        "enderecoAnuncio": "Rua Balduíno Taques - Apt 71, 2093 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Balduíno Taques\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391450.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0869061,
+                -50.1649089
+            ],
+            "type": "Point"
+        },
+        "ref": "391450.001",
+        "valor": 750000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Ronda",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Marquês do Paraná ao lado 455.",
+            "numero": "455"
+        },
+        "enderecoAnuncio": "Rua Marquês do Paraná ao lado 455., S/N - Apto 14 - Ronda - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Marquês do Paraná\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390875.001/apartamento-padrao-1-dormitorio-ronda-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0978618,
+                -50.1732042
+            ],
+            "type": "Point"
+        },
+        "ref": "390875.001",
+        "valor": 199000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Padre João Lux"
+        },
+        "enderecoAnuncio": "Rua Padre João Lux, s/n - Apto 45 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Padre João Lux\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390950.023/apartamento-padrao-apartamentos-edifcio-rio-lena-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0974132,
+                -50.1538899
+            ],
+            "type": "Point"
+        },
+        "ref": "390950.023",
+        "valor": 183942.16
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Emílio de Menezes",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Emílio de Menezes, 808 - Apto duplex 122 - Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Emílio de Menezes\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390252.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1061403,
+                -50.1621569
+            ],
+            "type": "Point"
+        },
+        "ref": "390252.001",
+        "valor": 750000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Enfermeira Adelaide Pareta",
+            "numero": "21"
+        },
+        "enderecoAnuncio": "Rua Enfermeira Adelaide Pareta, S/N - Quadra D Lote 21 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Enfermeira Adelaide Pareta\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391103.001/loteamento-condominio-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0887808,
+                -50.1153299
+            ],
+            "type": "Point"
+        },
+        "ref": "391103.001",
+        "valor": 170000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Ana Rita",
+            "numero": "459"
+        },
+        "enderecoAnuncio": "Avenida Ana Rita, 459 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Ana Rita\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391367.001/sobrado-conjugado-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1027403,
+                -50.1425598
+            ],
+            "type": "Point"
+        },
+        "ref": "391367.001",
+        "valor": 360000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Ronda",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Marquês do Paraná ao lado 455",
+            "numero": "455"
+        },
+        "enderecoAnuncio": "Rua Marquês do Paraná ao lado 455, S/N - Apto 34 - Ronda/Ronda - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Marquês do Paraná\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390876.001/apartamento-padrao-edifcio-laguna-1-dormitorio-ronda-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0978618,
+                -50.1732042
+            ],
+            "type": "Point"
+        },
+        "ref": "390876.001",
+        "valor": 196000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Alexandre Rocha Carvalhães",
+            "numero": "187"
+        },
+        "enderecoAnuncio": "Rua Alexandre Rocha Carvalhães, 187 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Alexandre Rocha Carvalhaes\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391472.001/casa-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0707952,
+                -50.1455784
+            ],
+            "type": "Point"
+        },
+        "ref": "391472.001",
+        "valor": 840000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua República do Líbano",
+            "numero": "214"
+        },
+        "enderecoAnuncio": "Rua República do Líbano, 214 - Apto 11 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua República do Panamá\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390189.001/apartamento-padrao-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0710862,
+                -50.1549831
+            ],
+            "type": "Point"
+        },
+        "ref": "390189.001",
+        "valor": 320000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Órfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Visconde de Sinimbú",
+            "numero": "439"
+        },
+        "enderecoAnuncio": "Rua Visconde de Sinimbú, 439 - Orfãs/Órfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Visconde de Sinimbú\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390996.001/terreno-urbano-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.080718,
+                -50.1731316
+            ],
+            "type": "Point"
+        },
+        "ref": "390996.001",
+        "valor": 465000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Palmeirinha",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Centenário do Sul",
+            "numero": "725"
+        },
+        "enderecoAnuncio": "Rua Centenário do Sul, 725 - Boa Vista/Palmeirinha - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Centenário do Sul\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390905.001/terreno-urbano-boa-vista-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.069373,
+                -50.1763057
+            ],
+            "type": "Point"
+        },
+        "ref": "390905.001",
+        "valor": 180000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Lauro Marcondes Ferreira",
+            "numero": "440"
+        },
+        "enderecoAnuncio": "Rua Lauro Marcondes Ferreira, 440 - Apto 34 - Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Euclides Ferreira Martins\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390416.002/apartamento-padrao-edifcio-piazza-allegra-2-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0789383,
+                -50.1543971
+            ],
+            "type": "Point"
+        },
+        "ref": "390416.002",
+        "valor": 340000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Avenida Ana Rita",
+            "numero": "1095"
+        },
+        "enderecoAnuncio": "Avenida Ana Rita, 1095 - Uvaranas/Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Avenida Ana Rita\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391416.001/sobrado-padrao-3-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1027403,
+                -50.1425598
+            ],
+            "type": "Point"
+        },
+        "ref": "391416.001",
+        "valor": 900000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Coronel Dulcídio",
+            "numero": "07"
+        },
+        "enderecoAnuncio": "Rua Coronel Dulcídio, 07 - Apto 83 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Coronel Cláudio\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390121.014/apartamento-padrao-edificio-gran-torino-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0933553,
+                -50.1615922
+            ],
+            "type": "Point"
+        },
+        "ref": "390121.014",
+        "valor": 680000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua México"
+        },
+        "enderecoAnuncio": "Rua México, s/n - Apto 22 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua México\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391076.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1021124,
+                -50.1627974
+            ],
+            "type": "Point"
+        },
+        "ref": "391076.001",
+        "valor": 520000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Pedro Blageski",
+            "numero": "405"
+        },
+        "enderecoAnuncio": "Rua Pedro Blageski, 405 - Oficinas/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Pedro Blageski\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391427.001/sobrado-padrao-2-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1069026,
+                -50.1719402
+            ],
+            "type": "Point"
+        },
+        "ref": "391427.001",
+        "valor": 300000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Pedro Blageski",
+            "numero": "405"
+        },
+        "enderecoAnuncio": "Rua Pedro Blageski, 405 - Oficinas/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Pedro Blageski\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390482.002/apartamento-padrao-edifcio-imperador-meschke-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1069026,
+                -50.1719402
+            ],
+            "type": "Point"
+        },
+        "ref": "390482.002",
+        "valor": 300000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Nestor Guimarães"
+        },
+        "enderecoAnuncio": "Rua Nestor Guimarães, s/n - Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Nestor Guimarães\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390436.001/sala-comercial-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1038897,
+                -50.1619006
+            ],
+            "type": "Point"
+        },
+        "ref": "390436.001",
+        "valor": 450000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Uvaranas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Bonifácio Ribas",
+            "numero": "195"
+        },
+        "enderecoAnuncio": "Rua Bonifácio Ribas, 195 - Unidade 07 - Uvaranas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Bonifácio Ribas\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391114.001/sobrado-condominio-2-dormitorios-uvaranas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0996185,
+                -50.1484269
+            ],
+            "type": "Point"
+        },
+        "ref": "391114.001",
+        "valor": 170000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "485"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 485 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Colares\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391478.001/apartamento-padrao-3-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "391478.001",
+        "valor": 350000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Jardim Carvalho",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Lauro Marcondes Ferreira",
+            "numero": "440"
+        },
+        "enderecoAnuncio": "Rua Lauro Marcondes Ferreira, 440 - Apto 32 - Jardim Carvalho/Jardim Carvalho - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Sebastião Marcondes Ferreira\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390414.005/apartamento-padrao-edifcio-piazza-allegra-3-dormitorios-jardim-carvalho-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0789383,
+                -50.1543971
+            ],
+            "type": "Point"
+        },
+        "ref": "390414.005",
+        "valor": 458000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Colares",
+            "numero": "808"
+        },
+        "enderecoAnuncio": "Rua Doutor Colares, 808 - Apto 206 - Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Cyro de Lima Garcia\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390582.002/cobertura-edifcio-benevento-residenziale-4-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0962289,
+                -50.1636152
+            ],
+            "type": "Point"
+        },
+        "ref": "390582.002",
+        "valor": 912000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Estrela",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Conrado Schiffer",
+            "numero": "80"
+        },
+        "enderecoAnuncio": "Rua Conrado Schiffer, 80 - Estrela/Estrela - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Conrado Schiffer\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391525.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1058879,
+                -50.1708003
+            ],
+            "type": "Point"
+        },
+        "ref": "391525.001",
+        "valor": 185000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": " Orfãs",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Saldanha da Gama",
+            "numero": "249"
+        },
+        "enderecoAnuncio": "Rua Saldanha da Gama, 249 - Apartamento 41 - Orfãs - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Saldanha da Gama\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391121.001/garden-palazzo-ducale-3-dormitorios-orfas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0816084,
+                -50.167702
+            ],
+            "type": "Point"
+        },
+        "ref": "391121.001",
+        "valor": 719000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Coronel Dulcídio"
+        },
+        "enderecoAnuncio": "Rua Coronel Dulcídio, s/n - Apto 69 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Coronel Cláudio\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390217.010/apartamento-padrao-edifcio-residendial-atlntico-1-dormitorio-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0933553,
+                -50.1615922
+            ],
+            "type": "Point"
+        },
+        "ref": "390217.010",
+        "valor": 160000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Afonso Celso",
+            "numero": "02"
+        },
+        "enderecoAnuncio": "Rua Afonso Celso, 02 - Apto 302 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Afonso Celso\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/390896.001/apartamento-padrao-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0868592,
+                -50.1502129
+            ],
+            "type": "Point"
+        },
+        "ref": "390896.001",
+        "valor": 190000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Doutor Paula Xavier",
+            "numero": "1301"
+        },
+        "enderecoAnuncio": "Rua Doutor Paula Xavier, 1301 - Apto 51 - Estrela/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Doutor Paula Xavier\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391021.001/apartamento-padrao-3-dormitorios-estrela-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1023192,
+                -50.1610973
+            ],
+            "type": "Point"
+        },
+        "ref": "391021.001",
+        "valor": 950000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Centro",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua México"
+        },
+        "enderecoAnuncio": "Rua México, s/n - Apto 15 - Centro/Centro - Ponta Grossa/PR",
+        "enderecoMatch": "Rua México\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391075.001/apartamento-padrao-2-dormitorios-centro-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1021124,
+                -50.1627974
+            ],
+            "type": "Point"
+        },
+        "ref": "391075.001",
+        "valor": 455000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Ronda",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Barão do Amazonas",
+            "numero": "389"
+        },
+        "enderecoAnuncio": "Rua Barão do Amazonas, 389 - Ronda/Ronda - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Porto Amazonas\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391409.001/apartamento-padrao-2-dormitorios-ronda-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.0986404,
+                -50.1690035
+            ],
+            "type": "Point"
+        },
+        "ref": "391409.001",
+        "valor": 180000.0
+    },
+    {
+        "data": "27/03/2019",
+        "endereco": {
+            "bairro": "Oficinas",
+            "cidade": "Ponta Grossa/PR",
+            "logradouro": "Rua Vidal de Negreiros",
+            "numero": "899"
+        },
+        "enderecoAnuncio": "Rua Vidal de Negreiros, 899 - Apto 12 - Oficinas/Oficinas - Ponta Grossa/PR",
+        "enderecoMatch": "Rua Vidal de Negreros\n",
+        "link": "https://www.conceitoimoveispg.com.br/imovel/391055.002/apartamento-padrao-edifcio-costa-esmeralda-3-dormitorios-oficinas-ponta-grossa-PR",
+        "localizacao": {
+            "coordenadas": [
+                -25.1118869,
+                -50.1617831
+            ],
+            "type": "Point"
+        },
+        "ref": "391055.002",
+        "valor": 470000.0
+    }
+]
