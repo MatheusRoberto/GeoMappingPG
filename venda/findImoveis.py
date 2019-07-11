@@ -85,11 +85,11 @@ def main():
                 #anuncios.remove(findAnuncio)
                 anuncios.append(anuncioE)
     write_JSON()
-    #write_JSONToday()
+    write_JSONToday()
 
     print('Fim')
     fim = time.time()
-    print(fim - inicio)
+    print('total run: ' + fim - inicio)
 
 
 if __name__ == '__main__':
