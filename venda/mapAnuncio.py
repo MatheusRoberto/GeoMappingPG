@@ -1,9 +1,13 @@
-import geocoder
 import json
+import time
+from geopy.geocoders import Nominatim
+from geopy.extra.rate_limiter import RateLimiter
+from datetime import datetime
 
-anuncios = {}
+anuncios = []
 geoAnuncio = []
 notGeoAnuncio = []
+final = []
 
 
 class Localizacao:
@@ -43,6 +47,10 @@ class Anuncio:
 def write_JSON():
     with open('./output/anunciosGeo.json', 'w') as f:
         json.dump(geoAnuncio, f, indent=4, ensure_ascii=False)
+    with open('./output/anunciosGeoNot.json', 'w') as f:
+        json.dump(notGeoAnuncio, f, indent=4, ensure_ascii=False)
+    with open('./output/anuncios.json', 'w') as f:
+        json.dump(anuncios, f, indent=4, ensure_ascii=False)
 
 
 def write_JSONNot():
@@ -57,10 +65,20 @@ def open_JSON():
 
 
 def main():
+    inicio = time.time()
     open_JSON()
+    cont = False
+    global final
+    geocoder = Nominatim(user_agent="GeomappingPontaGrossa")
+    localizador = RateLimiter(geocoder.geocode, min_delay_seconds=2)
     for anuncio in anuncios:
+        
+        if cont:
+            break
 
         if 'localizacao' in anuncio:
+            final.append(anuncio)
+            geoAnuncio.append(anuncio)
             continue
 
         enderecoFinder = ""
@@ -107,25 +125,29 @@ def main():
                     enderecoFinder = (
                         u"{} - {} - {}".format(enderecoMatch, bairro, cidade))
 
-            g = geocoder.osm(enderecoFinder)
-            if g is not None:
-                coordinate = g.latlng
-                if g.status is not 'OK' and g.status is None:
-                    print(g.json)
+            finder = localizador(enderecoFinder)
+                
+            if finder is not None:
+                coordinate.append(finder.latitude)
+                coordinate.append(finder.longitude)
 
             tries += 1  # adiciono mais um no número de tentativas para controle
 
-        if coordinate is not None:
+        if coordinate:
             anuncioGeolocalizado = Anuncio(
                 anuncio, coordinate[0], coordinate[1])
             geoAnuncio.append(json.loads(anuncioGeolocalizado.toJSON()))
+            print(f'{anuncios.index(anuncio)} de {len(anuncios)} - Codigo: {anuncioGeolocalizado.ref} encontrado')
         else:
-            anuncioGeolocalizado = Anuncio(anuncio, 0.0, 0.0)
-            notGeoAnuncio.append(json.loads(anuncioGeolocalizado.toJSON()))
+            notGeoAnuncio.append(anuncio)
+            print(f'{anuncios.index(anuncio)} de {len(anuncios)} - Codigo: {anuncio["ref"]} não encontrado')
 
+    final += geoAnuncio + notGeoAnuncio
     write_JSON()
-    write_JSONNot()
 
+    print('Fim da busca')
+    fim = time.time()
+    total = fim - inicio
+    total = datetime.utcfromtimestamp(total).strftime('%H:%M:%S')
+    print(f'total da busca: {total}')
 
-if __name__ == "__main__":
-    main()

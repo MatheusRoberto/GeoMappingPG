@@ -5,8 +5,8 @@ import finders.findProcureImovel as findProcureImovel
 import json
 import time
 import copy
-import time
 import re as regex
+from datetime import datetime
 
 anuncios = []
 anunciosToday = []
@@ -87,10 +87,8 @@ def main():
     write_JSON()
     write_JSONToday()
 
-    print('Fim')
+    print('Fim da busca')
     fim = time.time()
-    print('total run: ' + fim - inicio)
-
-
-if __name__ == '__main__':
-    main()
+    total = fim - inicio
+    total = datetime.utcfromtimestamp(total).strftime('%H:%M:%S')
+    print(f'total da busca: {total}')

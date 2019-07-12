@@ -1,11 +1,15 @@
 import json
 import re as regex
 from datetime import datetime
+import geocoder
+from geopy.geocoders import Nominatim
+from geopy.extra.rate_limiter import RateLimiter
 
 anuncios = {}
 solving = []
 prontos = []
 total = []
+notprontos = []
 
 
 class Endereco:
@@ -38,7 +42,7 @@ def open_JSONFinal():
     global prontos
     with open('./output/anuncios.json') as f:
         solving = json.load(f)
-    with open('./output/anunciosTotais.json') as f:
+    with open('./output/anunciosGeo.json') as f:
         prontos = json.load(f)
 
 
@@ -62,6 +66,10 @@ def write_JSONTotal(total):
     with open('./output/anunciosTotais.json', 'w') as f:
         json.dump(total, f, indent=4, ensure_ascii=False)
 
+def write_JSONNot(notprontos):
+    with open('./output/anunciosNot.json', 'w') as f:
+        json.dump(notprontos, f, indent=4, ensure_ascii=False)
+
 
 def solvingRef(link):
     if 'conceitoimoveispg' in link:
@@ -76,19 +84,18 @@ def main():
     # open_JSONMaior()
     # open_JSONMenor()
     open_JSONFinal()
-    duplicadas = []
+    
 
-    total = 0
-    no = 0
-    for anuncioE in prontos:
-        if 'localizacao' in anuncioE:
-            total += 1
+    for a in solving:
+        if 'localizacao' in a:
+            total.append(a)
         else:
-            no += 1
+            notprontos.append(a)
+
+    write_JSONTotal(total)
+    write_JSONNot(notprontos)
 
 
-    print(total)
-    print(no)
 
 
 if __name__ == "__main__":
