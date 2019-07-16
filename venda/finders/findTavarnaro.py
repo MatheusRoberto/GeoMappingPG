@@ -126,7 +126,8 @@ def imovel(i, j):
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
             i += 1
-    print(i)
+        print(f'{i} de {j}')
+    # print(i)
 
 def cleanhtml(raw_html):
   cleanr = regex.compile('<.*?>')
@@ -136,18 +137,20 @@ def cleanhtml(raw_html):
 
 def main():
 
-    # carregaLogradouros()
+    carregaLogradouros()
 
     r = session.get('https://www.tavarnaroconsultoria.com.br/imoveis/a-venda')
     soup = BeautifulSoup(r.text, 'html.parser')
     
     npag = cleanhtml(str(soup.select('div.pagination-cell.hidden-lg-up > p')))
-    n = int(int(regex.findall(r"\d+", npag)[1]) / 4)
+    npag = int(regex.findall(r"\d+", npag)[1])
+
+    n = int(npag / 4)
 
     thread1 = threading.Thread(target=imovel, args=(1, n))
     thread2 = threading.Thread(target=imovel, args=(n + 1, 2 * n))
     thread3 = threading.Thread(target=imovel, args=(2 * n + 1, 3 * n))
-    thread4 = threading.Thread(target=imovel, args=(3 * n + 1, 4 * n))
+    thread4 = threading.Thread(target=imovel, args=(3 * n + 1, npag))
 
     thread1.start()
     thread2.start()

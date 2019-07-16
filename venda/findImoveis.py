@@ -38,6 +38,7 @@ def main():
     inicio = time.time()
     open_JSON()
     
+    
     print('Imobiliaria Conceito')
     anunciosConceito = findImConceito.main()
     print(f'Total encontrado - Imobiliaria Conceito: {len(anunciosConceito)}')

@@ -103,7 +103,7 @@ def imovel(i, j):
                 print(f"Link: {d}\n Error: {e}")
 
             if end and preco:
-                # print(r.status_code)
+                print(r.status_code)
                 precoAnuncio = valorAnuncio(preco.text)
                 (pont, endMatch) = buscaRuaPG(end.text)
                 if precoAnuncio > 0 and pont >= 40:
@@ -118,6 +118,7 @@ def imovel(i, j):
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
             i += 1
+        print(f'{i} de {j}')
     # print(r.status_code)
     # print(i)
 

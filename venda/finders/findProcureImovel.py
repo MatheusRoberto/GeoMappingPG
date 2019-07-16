@@ -6,6 +6,7 @@ from requests_html import HTMLSession
 from datetime import datetime
 from fuzzywuzzy import fuzz
 from bs4 import BeautifulSoup
+import math
 
 session = HTMLSession()
 
@@ -80,7 +81,7 @@ def imovel(i, j):
 
             if end and preco and ref:
                 precoAnuncio = valorAnuncio(preco.text)
-                #print(r.status_code)
+                print(r.status_code)
                 if not rua:
                     (pont, endMatch) = buscaRuaPG(rua)
                 else:
@@ -98,8 +99,9 @@ def imovel(i, j):
                                       bairro, 'Ponta Grosa/PR', precoAnuncio, endMatch, d)
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
-            i += 12
-    print(i)
+            i += 1
+        print(f'{i} de {j}')
+    # print(i)
 
 def cleanhtml(raw_html):
   cleanr = regex.compile('<.*?>')
@@ -206,16 +208,17 @@ def main():
     r = session.get('https://procureimovel.com.br/venda/ponta-grossa-pr?fin=venda&t=&st=&cidade=ponta-grossa-pr&vMin=&vMax=&dts=&vagas=&ad=&o=0&page=1000')
     soup = BeautifulSoup(r.text, 'html.parser')
 
-    npag = cleanhtml(str(soup.select('#wrapper > div.container > div > div.col-md-8 > div.pagination-container.margin-top-20 > nav.pagination > ul > li:nth-child(5) > a')))
-    npag = npag.replace('[', '')
-    npag = npag.replace(']', '')
+    npag = cleanhtml(str(soup.select('h1')))
+    npag = str(regex.findall(r"\d+", npag)[0]) + str(regex.findall(r"\d+", npag)[1])
+    npag = math.ceil(int(npag)/30)
 
-    n = int(int(npag) / 4)
+    n = math.ceil(npag / 4)
+
 
     thread1 = threading.Thread(target=imovel, args=(1, n))
     thread2 = threading.Thread(target=imovel, args=(n + 1, 2 * n))
     thread3 = threading.Thread(target=imovel, args=(2 * n + 1, 3 * n))
-    thread4 = threading.Thread(target=imovel, args=(3 * n + 1, 4 * n))
+    thread4 = threading.Thread(target=imovel, args=(3 * n + 1, npag))
 
     thread1.start()
     thread2.start()
