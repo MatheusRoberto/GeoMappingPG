@@ -8,14 +8,15 @@ Todos os algoritmos foram elaborados em Python e algumas bibliotecas:
 * [fuzzywuzzy](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/)
 * [JSON](http://json.org)
 * [GeoPy](https://geopy.readthedocs.io/en/stable/)
+* [BS4] (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 ___
 API:
 * [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start)
 ### BuscaImoveis.py
 O primeiro algoritmo foi elaborado para extração de anuncios de alguns sites de algumas imobiliárias de Ponta Grossa/PR:
-* [Conceito Imóveis](https://www.conceitoimoveispg.com.br) (516 Anúncios)
-* [Procure Imóvel](https://procureimovel.com.br/) (6592 Anúncios)
-* [Tavarnaro](https://www.tavarnaroconsultoria.com.br/) (1176 Anúncios)
+* [Conceito Imóveis](https://www.conceitoimoveispg.com.br) 
+* [Procure Imóvel](https://procureimovel.com.br/) 
+* [Tavarnaro](https://www.tavarnaroconsultoria.com.br/) 
 
 Utilizando [request](http://docs.python-requests.org/pt_BR/latest/) para acesso á página principal com todos anúncios, onde para cada anúncio é realizado um acesso á pagina, encontra tags no HTML para extração da localidade e valor do anúncio do imovél. 
 Após está extração utilizando de [regex](https://docs.python.org/3/library/re.html), é extraido valor e informações da localidade do anúncio, como:
@@ -38,11 +39,11 @@ Após o processamento de todas ás paginas do site da imobiliária, é gerado um
 
 O endereço *match* é utlizado para conferênia que o endereço do anúncio é o mesmo da lista de logradouros da cidade
 
-Após está estruturação é salva num arquivo [JSON](http://json.org) com nome de [anunciosGeo.json](./anunciosGeo.json) para utilização em outro algoritmo [geoAnuncioAPI.py](./geoAnuncioAPI.py)
+Após está estruturação é salva num arquivo [JSON](http://json.org) com nome de [anunciosGeo.json](./anunciosGeo.json) para utilização em outro algoritmo [mapAnuncio.py](./mapAnuncio.py)
 
 ___
 
-### GeoAnuncioAPI.py
+### mapAnuncio.py
 
 O segundo algoritmo foi elaborado para ler o arquivo [JSON](http://json.org) resultado do [buscaImoveis.py](./buscaImoveis.py), utilizando a biblioteca [GeoPy](https://geopy.readthedocs.io/en/stable/) ele pega o endereço encontrado de cada anúncio, utiliza API [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) para encontrar a **latitude e longitude**
 do endereço encontrado no anúncio. Após processar todos os anuncios ele salva em um arquivo [JSON](http://json.org) com nome de [anunciosGeo.json](./anunciosGeo.json) para processamento de um terceiro algoritmo [mapppingAnuncio.py](./mappingAnuncio.py)
@@ -50,7 +51,7 @@ do endereço encontrado no anúncio. Após processar todos os anuncios ele salva
 ___
 
 ### MappingAnuncio.py
-O terceiro algoritmo também elaborado para leitura de arquivo [JSON](http://json.org) resultado do [geoAnuncioAPI.py](./geoAnuncioAPI.py), utilizando a biblioteca [folium](https://python-visualization.github.io/folium/docs-v0.6.0/) utilizando o mapa da cidade de  Ponta Grossa/PR, com a leitura do arquivo, ocorre uma ordenação dos anúncios conforme os valores do anúncio, divide em grupos em uma faixa de valor e verifica as coordenadas geográficas e adiciona ao mapa de Ponta Grossa/PR, após a inserção de todos os anúncios é gerado um [index.html](./index.html) com o mapa de Ponta Grossa/PR com todos os anúncios e cores referente aos seus grupos e valores
+O terceiro algoritmo também elaborado para leitura de arquivo [JSON](http://json.org) resultado do [mapAnuncio.py](./mapAnuncio.py), utilizando a biblioteca [folium](https://python-visualization.github.io/folium/docs-v0.6.0/) utilizando o mapa da cidade de  Ponta Grossa/PR, com a leitura do arquivo, ocorre uma ordenação dos anúncios conforme os valores do anúncio, divide em grupos em uma faixa de valor e verifica as coordenadas geográficas e adiciona ao mapa de Ponta Grossa/PR, após a inserção de todos os anúncios é gerado um [index.html](./index.html) com o mapa de Ponta Grossa/PR com todos os anúncios e cores referente aos seus grupos e valores
 
 ____
 
@@ -70,19 +71,22 @@ pip install geopy
 ```bash
 pip install folium
 ```
+```bash
+pip install bs4
+```
 ____
 
 ## Utilizando os programas
- 
-Primeiro execute o arquivo findImoveis.py:
+
+O arquivo geoMapping.py tem script para rodar algoritmo de Scraping e Georreferenciação **Neste algortimo é necessário uma key para utilizar API do Google [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start):
 ```bash
-python findImoveis.py
+cd venda
 ```
-Após o termino do primeiro algoritmo, rodamos o segundo algoritmo geoAnuncioAPI.py, **Neste algortimo é necessário uma key para utilizar API do Google [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start):
 ```bash
-python geoAnuncioAPI.py
+python geoMapping.py
 ```
-E por fim utilizamos o ultimo algoritmo para mapear Ponta Grossa com os anúncios obtidos:
+
+E por fim utilizamos o ultimo algoritmo para criar um mapa com todos os anuncios georreferenciados da cidade de Ponta Grossa - Paraná:
 ```bash
 python mappingAnuncio.py
 ```
