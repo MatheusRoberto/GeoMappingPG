@@ -16,9 +16,7 @@ def write_JSON():
     with open('./output/anuncios.json', 'w') as f:
         json.dump(anuncios, f, indent=4, ensure_ascii=False)
 
-
-def write_JSONToday():
-    with open(f'./output/dates/anuncios_{time.time()}.json', 'w') as f:
+    with open(f'./output/dates/finder/anuncios_{time.time()}.json', 'w') as f:
         json.dump(anunciosToday, f, indent=4, ensure_ascii=False)
 
 
@@ -42,6 +40,7 @@ def main():
     
     print('Imobiliaria Conceito')
     anunciosConceito = findImConceito.main()
+    print(f'Total encontrado - Imobiliaria Conceito: {len(anunciosConceito)}')
     for anuncioE in anunciosConceito:
         anunciosToday.append(anuncioE)
         findAnuncio = next(
@@ -52,12 +51,13 @@ def main():
             if(compareAnuncio(findAnuncio, anuncioE)):
                 #anuncios.remove(findAnuncio)
                 anuncios.append(anuncioE)
-    write_JSON()
-    #write_JSONToday()
+    # write_JSON()
+
 
     print('----------------------------------')
     print('Imobiliaria Tavarnaro')
     anunciosTavarnaro = findTavarnaro.main()
+    print(f'Total encontrado - Imobiliaria Tavarnaro: {len(anunciosTavarnaro)}')
     for anuncioE in anunciosTavarnaro:
         anunciosToday.append(anuncioE)
         findAnuncio = next(
@@ -68,12 +68,13 @@ def main():
             if(compareAnuncio(findAnuncio, anuncioE)):
                 #anuncios.remove(findAnuncio)
                 anuncios.append(anuncioE)
-    write_JSON()
-    #write_JSONToday()
+    # write_JSON()
+
 
     print('----------------------------------')
     print('Procure Imovel')
     anunciosProcureImovel = findProcureImovel.main()
+    print(f'Total encontrado - Procure Imovel: {len(anunciosProcureImovel)}')
     for anuncioE in anunciosProcureImovel:
         anunciosToday.append(anuncioE)
         findAnuncio = next(
@@ -85,10 +86,10 @@ def main():
                 #anuncios.remove(findAnuncio)
                 anuncios.append(anuncioE)
     write_JSON()
-    write_JSONToday()
 
     print('Fim da busca')
     fim = time.time()
     total = fim - inicio
     total = datetime.utcfromtimestamp(total).strftime('%H:%M:%S')
-    print(f'total da busca: {total}')
+    print(f'Tempo total do Finder: {total}')
+    print(f'Numero total de registros encontrados: {len(anunciosToday)}')

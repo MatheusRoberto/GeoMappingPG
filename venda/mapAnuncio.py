@@ -8,6 +8,7 @@ anuncios = []
 geoAnuncio = []
 notGeoAnuncio = []
 final = []
+anunciosToday = []
 
 
 class Localizacao:
@@ -47,10 +48,15 @@ class Anuncio:
 def write_JSON():
     with open('./output/anunciosGeo.json', 'w') as f:
         json.dump(geoAnuncio, f, indent=4, ensure_ascii=False)
+
     with open('./output/anunciosGeoNot.json', 'w') as f:
         json.dump(notGeoAnuncio, f, indent=4, ensure_ascii=False)
+
     with open('./output/anuncios.json', 'w') as f:
         json.dump(anuncios, f, indent=4, ensure_ascii=False)
+
+    with open(f'./output/dates/geolocator/anuncios_{time.time()}.json', 'w') as f:
+        json.dump(anunciosToday, f, indent=4, ensure_ascii=False)
 
 
 def write_JSONNot():
@@ -137,6 +143,7 @@ def main():
             anuncioGeolocalizado = Anuncio(
                 anuncio, coordinate[0], coordinate[1])
             geoAnuncio.append(json.loads(anuncioGeolocalizado.toJSON()))
+            anunciosToday.append(json.loads(anuncioGeolocalizado.toJSON()))
             print(f'{anuncios.index(anuncio)} de {len(anuncios)} - Codigo: {anuncioGeolocalizado.ref} encontrado')
         else:
             notGeoAnuncio.append(anuncio)
@@ -149,5 +156,6 @@ def main():
     fim = time.time()
     total = fim - inicio
     total = datetime.utcfromtimestamp(total).strftime('%H:%M:%S')
-    print(f'total da busca: {total}')
+    print(f'Tempo total da Georreferenciamento: {total}')
+    print(f'Numero total de registros encontrados: {len(anunciosToday)}')
 

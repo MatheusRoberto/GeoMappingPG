@@ -141,7 +141,7 @@ def main():
     r = session.get('https://www.tavarnaroconsultoria.com.br/imoveis/a-venda')
     soup = BeautifulSoup(r.text, 'html.parser')
     
-    npag = cleanhtml(str(soup.select('#listings-s1digb > div > div.container > div:nth-child(3) > div.col-sm-12.col-md-8.col-lg-9 > div.pagination > div > div.pagination-cell.hidden-lg-up > p')))
+    npag = cleanhtml(str(soup.select('div.pagination-cell.hidden-lg-up > p')))
     n = int(int(regex.findall(r"\d+", npag)[1]) / 4)
 
     thread1 = threading.Thread(target=imovel, args=(1, n))
