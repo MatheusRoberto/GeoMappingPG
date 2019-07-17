@@ -42,7 +42,7 @@ def open_JSONFinal():
     global prontos
     with open('./output/anuncios.json') as f:
         solving = json.load(f)
-    with open('./output/anunciosGeo.json') as f:
+    with open('./output/anunciosTotais.json') as f:
         prontos = json.load(f)
 
 
@@ -62,9 +62,11 @@ def write_JSON(solving):
     with open('./output/anuncios.json', 'w') as f:
         json.dump(solving, f, indent=4, ensure_ascii=False)
 
+
 def write_JSONTotal(total):
     with open('./output/anunciosTotais.json', 'w') as f:
         json.dump(total, f, indent=4, ensure_ascii=False)
+
 
 def write_JSONNot(notprontos):
     with open('./output/anunciosNot.json', 'w') as f:
@@ -80,22 +82,62 @@ def solvingRef(link):
         return regex.search(r"ref-\d*-\d", link)[0]
 
 
+class Valor:
+    def __init__(self, data, valor):
+        self.data = data
+        self.valor = valor
+
+    def toJSON(self):
+        return json.dumps(self, ensure_ascii=False, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+
+
+def compareAnuncio(anuncioA, anuncioB):
+    if((anuncioA['endereco'] is anuncioB['endereco']
+            or anuncioA['enderecoAnuncio'] == anuncioB['enderecoAnuncio'])):
+        return True
+    return False
+
+
+def criaArrayValores(anuncioA, anuncioB):
+    valores = []
+    if 'valor' in anuncioA and isinstance(anuncioA['valor'], list):
+        valores = anuncioA['valor']
+        findValor = next(
+            (valor for valor in valores if anuncioB['data'] == valor['data']), None)
+        if findValor is None:
+            valor = Valor(anuncioB['data'], anuncioB['valor'])
+            valores.append(json.loads(valor.toJSON()))
+        elif findValor['valor'] != anuncioB['valor']:
+            valor = Valor(anuncioB['data'], anuncioB['valor'])
+            valores.append(json.loads(valor.toJSON()))
+    else:
+        valor = Valor(anuncioA['data'], anuncioA['valor'])
+        valores.append(json.loads(valor.toJSON()))
+        valorb = Valor(anuncioB['data'], anuncioB['valor'])
+        valores.append(json.loads(valorb.toJSON()))
+    return valores
+
+
 def main():
     # open_JSONMaior()
     # open_JSONMenor()
     open_JSONFinal()
-    
 
-    for a in solving:
-        if 'localizacao' in a:
-            total.append(a)
+    ig = 0
+    ng = 0
+    igl = 0
+
+    for an in prontos:
+        findAnuncio = next(
+            (anuncio for anuncio in prontos if anuncio['ref'] == an['ref']), None)
+        if findAnuncio is None:
+            ng += 1
         else:
-            notprontos.append(a)
+            ig
 
-    write_JSONTotal(total)
-    write_JSONNot(notprontos)
-
-
+    print(f'iguais:{ig} iguaisl: {igl} not:{ng} total: {ig+ng+igl}')
+    
+    # write_JSONTotal(total)
 
 
 if __name__ == "__main__":

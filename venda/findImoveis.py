@@ -11,6 +11,13 @@ from datetime import datetime
 anuncios = []
 anunciosToday = []
 
+class Valor:
+    def __init__(self, data, valor):
+        self.data = data
+        self.valor = valor
+    def toJSON(self):
+        return json.dumps(self, ensure_ascii=False, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+
 
 def write_JSON():
     with open('./output/anuncios.json', 'w') as f:
@@ -28,16 +35,32 @@ def open_JSON():
 
 def compareAnuncio(anuncioA, anuncioB):
     if((anuncioA['endereco'] is anuncioB['endereco']
-        or anuncioA['enderecoAnuncio'] == anuncioB['enderecoAnuncio'])
-       and (anuncioA['valor'] != anuncioB['valor'])):
+        or anuncioA['enderecoAnuncio'] == anuncioB['enderecoAnuncio'])):
         return True
     return False
 
+def criaArrayValores(anuncioA, anuncioB):
+    valores = []
+    if 'valor' in anuncioA and isinstance(anuncioA['valor'], list):
+        valores = anuncioA['valor']
+        findValor = next(
+            (valor for valor in valores if anuncioB['data'] == valor['data'] ), None)
+        if findValor is None:
+            valor = Valor(anuncioB['data'], anuncioB['valor'])
+            valores.append(json.loads(valor.toJSON()))
+        elif findValor['valor'] != anuncioB['valor']:
+            valor = Valor(anuncioB['data'], anuncioB['valor'])
+            valores.append(json.loads(valor.toJSON()))
+    else:
+        valor = Valor(anuncioA['data'], anuncioA['valor'])
+        valores.append(json.loads(valor.toJSON()))
+        valorb = Valor(anuncioB['data'], anuncioB['valor'])
+        valores.append(json.loads(valorb.toJSON())) 
+    return valores
 
 def main():
     inicio = time.time()
     open_JSON()
-    
     
     print('Imobiliaria Conceito')
     anunciosConceito = findImConceito.main()
@@ -50,8 +73,9 @@ def main():
             anuncios.append(anuncioE)
         else:
             if(compareAnuncio(findAnuncio, anuncioE)):
+                anuncios[anuncios.index(findAnuncio)]['valor'] = criaArrayValores(findAnuncio, anuncioE)
                 #anuncios.remove(findAnuncio)
-                anuncios.append(anuncioE)
+                # anuncios.append(anuncioE)
     # write_JSON()
 
 
@@ -67,6 +91,7 @@ def main():
             anuncios.append(anuncioE)
         else:
             if(compareAnuncio(findAnuncio, anuncioE)):
+                anuncios[anuncios.index(findAnuncio)]['valor'] = criaArrayValores(findAnuncio, anuncioE)
                 #anuncios.remove(findAnuncio)
                 anuncios.append(anuncioE)
     # write_JSON()
@@ -84,6 +109,7 @@ def main():
             anuncios.append(anuncioE)
         else:
             if(compareAnuncio(findAnuncio, anuncioE)):
+                anuncios[anuncios.index(findAnuncio)]['valor'] = criaArrayValores(findAnuncio, anuncioE)
                 #anuncios.remove(findAnuncio)
                 anuncios.append(anuncioE)
     write_JSON()

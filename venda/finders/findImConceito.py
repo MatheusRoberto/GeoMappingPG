@@ -53,6 +53,7 @@ def carregaBairros():
 
 def imovel(i, j):
     while (i <= j):
+        print(f'{i} de {j}')
         r = session.get(
             f"https://www.conceitoimoveispg.com.br/busca/venda/cidade_ponta-grossa/pag_{i}")
 
@@ -64,11 +65,8 @@ def imovel(i, j):
 
             try:
                 re = session.get(d)
-            except Exception as e:
-                print(f"Error get Link: {d}\n Error: {e}")
 
-            bairro = vila = cidade = ''
-            try:
+                bairro = vila = cidade = ''
                 end = re.html.find('.imovelTitle .fa',
                                    first=True, _encoding="ISO-8859-1")
                 preco = re.html.find('.price', first=True,
@@ -96,17 +94,14 @@ def imovel(i, j):
                     if result is not None:
                         cidade = cleanhtml(str(result))
                         cidade = extractCidade(cidade)
-
-                if end is None:
-                    print(f"Endereco Not Found Link: {d}\n")
             except Exception as e:
                 print(f"Link: {d}\n Error: {e}")
 
             if end and preco:
-                print(r.status_code)
                 precoAnuncio = valorAnuncio(preco.text)
                 (pont, endMatch) = buscaRuaPG(end.text)
                 if precoAnuncio > 0 and pont >= 40:
+                    print(r.status_code)
                     if not bairro and not vila and not cidade:
                         (rua, numero, bairro, vila,
                          cidade) = estruturandoEndereco(end.text)
@@ -118,7 +113,6 @@ def imovel(i, j):
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
             i += 1
-        print(f'{i} de {j}')
     # print(r.status_code)
     # print(i)
 
@@ -249,7 +243,7 @@ def main():
     thread1 = threading.Thread(target=imovel, args=(1, n))
     thread2 = threading.Thread(target=imovel, args=(n + 1, 2 * n))
     thread3 = threading.Thread(target=imovel, args=(2 * n + 1, 3 * n))
-    thread4 = threading.Thread(target=imovel, args=(3 * n + 1, 4 * n))
+    thread4 = threading.Thread(target=imovel, args=(3 * n + 1, int(npag)))
 
     thread1.start()
     thread2.start()

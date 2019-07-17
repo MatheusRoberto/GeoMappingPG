@@ -76,7 +76,7 @@ def main():
     cont = False
     global final
     geocoder = Nominatim(user_agent="GeomappingPontaGrossa")
-    localizador = RateLimiter(geocoder.geocode, min_delay_seconds=2)
+    localizador = RateLimiter(geocoder.geocode, min_delay_seconds=1)
     for anuncio in anuncios:
         
         if cont:
@@ -157,5 +157,5 @@ def main():
     total = fim - inicio
     total = datetime.utcfromtimestamp(total).strftime('%H:%M:%S')
     print(f'Tempo total da Georreferenciamento: {total}')
-    print(f'Numero total de registros encontrados: {len(anunciosToday)}')
+    print(f'Numero total de registros georreferenciados: {len(anunciosToday)}')
 

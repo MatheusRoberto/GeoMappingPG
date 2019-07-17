@@ -102,6 +102,7 @@ def buscaRuaPG(endEncontrado):
 
 def imovel(i, j):
     while (i <= j):
+        print(f'{i} de {j}')
         r = session.get(
             f"https://www.tavarnaroconsultoria.com.br/imoveis/a-venda?pagina={i}")
 
@@ -117,16 +118,15 @@ def imovel(i, j):
 
             if end and preco:
                 precoAnuncio = valorAnuncio(preco.text)
-                print(r.status_code)
                 (pont, endMatch) = buscaRuaPG(end.text)
                 if pont >= 40 and precoAnuncio > 0:
+                    print(r.status_code)
                     (rua, numero, bairro, cidade) = estruturandoEndereco(end.text)
                     anuncio = Anuncio(d.split(
                         '/')[5], end.text, rua, numero, bairro, cidade, precoAnuncio, endMatch, d)
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
             i += 1
-        print(f'{i} de {j}')
     # print(i)
 
 def cleanhtml(raw_html):

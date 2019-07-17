@@ -50,7 +50,7 @@ def carregaBairros():
 
 def imovel(i, j):
     while (i <= j):
-
+        print(f'{i} de {j}')
         r = session.get(f"https://procureimovel.com.br/venda/ponta-grossa-pr?fin=venda&t=&st=&cidade=ponta-grossa-pr&vMin=&vMax=&dts=&vagas=&ad=&o=0&page={i}")
 
         data = r.html.absolute_links
@@ -64,7 +64,7 @@ def imovel(i, j):
                 preco = re.html.find('.property-price', first=True)
                 ref = re.html.find('#sidebar > div > div.widget.margin-bottom-30 > mark', first=True)
                 soup = BeautifulSoup(re.text, 'html.parser')
-                select = '#wrapper > div:nth-child(8) > div > div.col-lg-8.col-md-7 > div > ul.property-features.margin-top-0 > li'
+                select = 'ul.property-features.margin-top-0 > li'
                 element = soup.select(select)
                 result = next((el for el in element if 'Bairro' in str(el)), None)
                 if result is not None:
@@ -81,12 +81,12 @@ def imovel(i, j):
 
             if end and preco and ref:
                 precoAnuncio = valorAnuncio(preco.text)
-                print(r.status_code)
                 if not rua:
                     (pont, endMatch) = buscaRuaPG(rua)
                 else:
                     (pont, endMatch) = buscaRuaPG(end.text)
                 if pont >= 40 and precoAnuncio > 0:
+                    print(r.status_code)
                     if not rua and not numero and not bairro:
                         (rua, numero, bairro, cidade) = estruturandoEndereco(end.text)
                         anuncio = Anuncio(ref.text, end.text, rua, numero,
@@ -100,7 +100,6 @@ def imovel(i, j):
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
             i += 1
-        print(f'{i} de {j}')
     # print(i)
 
 def cleanhtml(raw_html):
