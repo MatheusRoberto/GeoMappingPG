@@ -76,7 +76,7 @@ def main():
     cont = False
     global final
     geocoder = Nominatim(user_agent="GeomappingPontaGrossa")
-    localizador = RateLimiter(geocoder.geocode, min_delay_seconds=1)
+    localizador = RateLimiter(geocoder.geocode, min_delay_seconds=2)
     for anuncio in anuncios:
         
         if cont:

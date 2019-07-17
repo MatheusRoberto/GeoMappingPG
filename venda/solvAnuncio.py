@@ -42,8 +42,6 @@ def open_JSONFinal():
     global prontos
     with open('./output/anuncios.json') as f:
         solving = json.load(f)
-    with open('./output/anunciosTotais.json') as f:
-        prontos = json.load(f)
 
 
 def open_JSONMaior():
@@ -123,20 +121,8 @@ def main():
     # open_JSONMenor()
     open_JSONFinal()
 
-    ig = 0
-    ng = 0
-    igl = 0
+    print(len(solving))
 
-    for an in prontos:
-        findAnuncio = next(
-            (anuncio for anuncio in prontos if anuncio['ref'] == an['ref']), None)
-        if findAnuncio is None:
-            ng += 1
-        else:
-            ig
-
-    print(f'iguais:{ig} iguaisl: {igl} not:{ng} total: {ig+ng+igl}')
-    
     # write_JSONTotal(total)
 
 

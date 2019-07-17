@@ -14,7 +14,7 @@ def main():
 
     print('GEORREFERENCIADO')
 
-    # mapAnuncio.main()
+    mapAnuncio.main()
 
     fim = time.time()
     total = fim - inicio
