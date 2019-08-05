@@ -59,18 +59,20 @@ def imovel(i, j):
 
         data = r.html.absolute_links
 
-        for d in data:
-            if d == 'tel:+554230251818':
-                continue
+        links = extractLinks(data)
+
+        for d in links:
 
             try:
                 re = session.get(d)
 
                 bairro = vila = cidade = ''
-                end = re.html.find('.imovelTitle .fa',
+                end = re.html.find('.addressBox',
                                    first=True, _encoding="ISO-8859-1")
                 preco = re.html.find('.price', first=True,
                                      _encoding="ISO-8859-1")
+                ref = re.html.find('h2 > span', first=True,
+                                   _encoding="ISO-8859-1")
                 fichaTecnica = re.html.find(
                     'body > div:nth-child(9) > div.imovelv2.imovelToSell > div > div.imovelInfoMain > div.p60.imobInfoBox.correctAlign > div:nth-child(1) > h5 > i', first=True,  _encoding="ISO-8859-1")
                 if fichaTecnica is not None:
@@ -97,8 +99,9 @@ def imovel(i, j):
             except Exception as e:
                 print(f"Link: {d}\n Error: {e}")
 
-            if end and preco:
+            if end and preco and ref:
                 precoAnuncio = valorAnuncio(preco.text)
+                codAnuncio = recuperaRef(ref)
                 (pont, endMatch) = buscaRuaPG(end.text)
                 if precoAnuncio > 0 and pont >= 40:
                     print(r.status_code)
@@ -108,13 +111,21 @@ def imovel(i, j):
                     else:
                         (rua, numero) = reconheceEndereco(end.text)
 
-                    anuncio = Anuncio(d.split('/')[4], end.text, rua, numero,
+                    anuncio = Anuncio(codAnuncio, end.text, rua, numero,
                                       bairro, vila, cidade, precoAnuncio, endMatch, d)
                     anuncios.append(json.loads(anuncio.toJSON()))
         if r.status_code == 200:
             i += 1
     # print(r.status_code)
     # print(i)
+
+def extractLinks(data):
+    links = []
+    for d in data:
+        result = d.find("/imovel/")
+        if result != -1:
+            links.append(d)
+    return links
 
 
 def cleanhtml(raw_html):
@@ -125,7 +136,7 @@ def cleanhtml(raw_html):
 
 def extractBairro(bairro):
     bairroExtr = bairro.replace('Bairro', '')
-    #print(f'Bairro: Pont: {pont} Match: {bairroMatch} Bairro: {bairroExtr}')
+    # print(f'Bairro: Pont: {pont} Match: {bairroMatch} Bairro: {bairroExtr}')
     if matchBairro(bairroExtr) > 75:
         return bairroExtr
     return ''
@@ -133,7 +144,7 @@ def extractBairro(bairro):
 
 def extractVila(vila):
     vilaExtr = vila.replace('Vila', '')
-    #print(f'Vila: Pont: {pont} Match: {bairroMatch} Bairro: {vilaExtr}')
+    # print(f'Vila: Pont: {pont} Match: {bairroMatch} Bairro: {vilaExtr}')
     if matchBairro(vilaExtr) > 75:
         return vilaExtr
     return ''
@@ -225,6 +236,12 @@ def buscaRuaPG(endEncontrado):
     return (n_max, logradouros[n_pos])
 
 
+def recuperaRef(ref):
+    res = regex.search(r"Cód.*", ref.text)
+    ref = res.group(0)
+    ref = ref.replace('Cód. ', '')
+    return ref
+
 def main():
 
     carregaLogradouros()
@@ -245,14 +262,16 @@ def main():
     thread3 = threading.Thread(target=imovel, args=(2 * n + 1, 3 * n))
     thread4 = threading.Thread(target=imovel, args=(3 * n + 1, int(npag)))
 
-    thread1.start()
-    thread2.start()
-    thread3.start()
-    thread4.start()
+    threads = []
+    threads.append(thread1)
+    threads.append(thread2)
+    threads.append(thread3)
+    threads.append(thread4)
 
-    thread1.join()
-    thread2.join()
-    thread3.join()
-    thread4.join()
+    for t in threads:
+        t.start()
+
+    for t in threads:
+        t.join()
 
     return anuncios

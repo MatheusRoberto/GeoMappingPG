@@ -52,10 +52,13 @@ def criaArrayValores(anuncioA, anuncioB):
             valor = Valor(anuncioB['data'], anuncioB['valor'])
             valores.append(json.loads(valor.toJSON()))
     else:
-        valor = Valor(anuncioA['data'], anuncioA['valor'])
-        valores.append(json.loads(valor.toJSON()))
-        valorb = Valor(anuncioB['data'], anuncioB['valor'])
-        valores.append(json.loads(valorb.toJSON())) 
+        if(anuncioA['data'] == anuncioB['data'] and anuncioA['valor'] == anuncioB['valor']):
+            valores.append(json.loads(Valor(anuncioA['data'], anuncioA['valor']).toJSON()))
+        else:
+            valor = Valor(anuncioA['data'], anuncioA['valor'])
+            valores.append(json.loads(valor.toJSON()))
+            valorb = Valor(anuncioB['data'], anuncioB['valor'])
+            valores.append(json.loads(valorb.toJSON())) 
     return valores
 
 def main():
@@ -93,7 +96,7 @@ def main():
             if(compareAnuncio(findAnuncio, anuncioE)):
                 anuncios[anuncios.index(findAnuncio)]['valor'] = criaArrayValores(findAnuncio, anuncioE)
                 #anuncios.remove(findAnuncio)
-                anuncios.append(anuncioE)
+                #anuncios.append(anuncioE)
     # write_JSON()
 
 
@@ -111,7 +114,7 @@ def main():
             if(compareAnuncio(findAnuncio, anuncioE)):
                 anuncios[anuncios.index(findAnuncio)]['valor'] = criaArrayValores(findAnuncio, anuncioE)
                 #anuncios.remove(findAnuncio)
-                anuncios.append(anuncioE)
+                #anuncios.append(anuncioE)
     write_JSON()
 
     print('Fim da busca')

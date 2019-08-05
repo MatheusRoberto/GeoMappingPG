@@ -4,13 +4,20 @@ from datetime import datetime
 import geocoder
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
+from pymongo import MongoClient
+import threading
 
 anuncios = {}
 solving = []
 prontos = []
 total = []
 notprontos = []
-
+localiza = ["Rua Dezenove de março, 650, Centro, Arandu - SP",
+     "Rua Ernesto Vilela, 380, Centro, Ponta Grossa - PR",
+     "Rua Coronel Claudio, 279, Centro, Ponta Grosa - PR",
+     "Rua Balduino Taques, 480, Centro, Ponta Grossa - PR",
+     "Rua Vicente Sposito, 180, Uvaranas - Ponta Grossa - PR",
+     "Rua José Batista Pereira, 160, Jardim Italia, Araundu/SP"]
 
 class Endereco:
     def __init__(self, endereco):
@@ -39,14 +46,14 @@ class Anuncio:
 
 def open_JSONFinal():
     global solving
-    global prontos
+    global total
     with open('./output/anuncios.json') as f:
         solving = json.load(f)
 
 
 def open_JSONMaior():
     global anuncios
-    with open('./output/anuncios1937.json') as f:
+    with open('./output/anunciosTotaisIns.json') as f:
         anuncios = json.load(f)
 
 
@@ -64,6 +71,8 @@ def write_JSON(solving):
 def write_JSONTotal(total):
     with open('./output/anunciosTotais.json', 'w') as f:
         json.dump(total, f, indent=4, ensure_ascii=False)
+    with open('./output/anunciosTotaisIns.json', 'w') as f:
+        json.dump(total, f, ensure_ascii=False)
 
 
 def write_JSONNot(notprontos):
@@ -115,16 +124,57 @@ def criaArrayValores(anuncioA, anuncioB):
         valores.append(json.loads(valorb.toJSON()))
     return valores
 
+def procura(i,j):
+
+    geocoder = Nominatim(user_agent="GeomappingPontaGrossa")
+    localizador = RateLimiter(geocoder.geocode, min_delay_seconds=2)
+    for i in range(i, j):
+        finder = localizador(localiza[i])
+                
+        if finder is not None:
+            print(f"Rua {localiza[i]} Lat: {finder.latitude} Lng: {finder.longitude}")
+
 
 def main():
     # open_JSONMaior()
     # open_JSONMenor()
+
+    '''
     open_JSONFinal()
+    cliente = MongoClient('localhost', 27017)
+    banco = cliente.anuncios
+    album = banco.anuncios
+    count = 0
+    
+    for anuncio in solving:
+        result = album.find({"ref": anuncio['ref']})
+        if result.count() == 0:
+            album.insert(anuncio)
 
-    print(len(solving))
+    for anuncio in solving:
+        result = album.find({"ref": anuncio['ref']})
+        if result.count() > 1:
+            count += 1
+        
 
-    # write_JSONTotal(total)
+    print(count)
+'''
 
+
+    thread1 = threading.Thread(target=procura, args=(0, 1))
+    thread2 = threading.Thread(target=procura, args=(2,3))
+    thread3 = threading.Thread(target=procura, args=(3,4))
+    thread4 = threading.Thread(target=procura, args=(5,5))
+
+    thread1.start()
+    thread2.start()
+    thread3.start()
+    thread4.start()
+
+    thread1.join()
+    thread2.join()
+    thread3.join()
+    thread4.join()
 
 if __name__ == "__main__":
     main()

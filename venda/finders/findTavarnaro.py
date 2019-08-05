@@ -99,6 +99,13 @@ def buscaRuaPG(endEncontrado):
         return (n_max, logradouros[n_pos])
     return (0, 0)
 
+def extractLinks(data):
+    links = []
+    for d in data:
+        result = d.find("TAVB")
+        if result != -1:
+            links.append(d)
+    return links
 
 def imovel(i, j):
     while (i <= j):
@@ -108,7 +115,9 @@ def imovel(i, j):
 
         data = r.html.absolute_links
 
-        for d in data:
+        links = extractLinks(data)
+
+        for d in links:
             try:
                 re = session.get(d)
                 end = re.html.find('.header-title .sub', first=True)
@@ -116,15 +125,18 @@ def imovel(i, j):
             except Exception as e:
                 print(f"Link: {d}\n Error: {e}")
 
-            if end and preco:
-                precoAnuncio = valorAnuncio(preco.text)
-                (pont, endMatch) = buscaRuaPG(end.text)
-                if pont >= 40 and precoAnuncio > 0:
-                    print(r.status_code)
-                    (rua, numero, bairro, cidade) = estruturandoEndereco(end.text)
-                    anuncio = Anuncio(d.split(
-                        '/')[5], end.text, rua, numero, bairro, cidade, precoAnuncio, endMatch, d)
-                    anuncios.append(json.loads(anuncio.toJSON()))
+            try:
+                if end and preco:
+                    precoAnuncio = valorAnuncio(preco.text)
+                    (pont, endMatch) = buscaRuaPG(end.text)
+                    if pont >= 40 and precoAnuncio > 0:
+                        print(r.status_code)
+                        (rua, numero, bairro, cidade) = estruturandoEndereco(end.text)
+                        anuncio = Anuncio(d.split(
+                            '/')[5], end.text, rua, numero, bairro, cidade, precoAnuncio, endMatch, d)
+                        anuncios.append(json.loads(anuncio.toJSON()))
+            except Exception as e:
+                print(f"Link: {d}\n Error: {e}")
         if r.status_code == 200:
             i += 1
     # print(i)
@@ -152,14 +164,16 @@ def main():
     thread3 = threading.Thread(target=imovel, args=(2 * n + 1, 3 * n))
     thread4 = threading.Thread(target=imovel, args=(3 * n + 1, npag))
 
-    thread1.start()
-    thread2.start()
-    thread3.start()
-    thread4.start()
+    threads = []
+    threads.append(thread1)
+    threads.append(thread2)
+    threads.append(thread3)
+    threads.append(thread4)
 
-    thread1.join()
-    thread2.join()
-    thread3.join()
-    thread4.join()
+    for t in threads:
+        t.start()
+
+    for t in threads:
+        t.join()
 
     return anuncios

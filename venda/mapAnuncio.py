@@ -3,6 +3,7 @@ import time
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 from datetime import datetime
+import threading
 
 anuncios = []
 geoAnuncio = []
@@ -10,6 +11,8 @@ notGeoAnuncio = []
 final = []
 anunciosToday = []
 
+geocoder = Nominatim(user_agent="GeomappingPontaGrossa")
+localizador = RateLimiter(geocoder.geocode, min_delay_seconds=3)
 
 class Localizacao:
     def __init__(self, latitude, longitude):
@@ -58,49 +61,33 @@ def write_JSON():
     with open(f'./output/dates/geolocator/anuncios_{time.time()}.json', 'w') as f:
         json.dump(anunciosToday, f, indent=4, ensure_ascii=False)
 
-
-def write_JSONNot():
-    with open('./output/anunciosGeoNot.json', 'w') as f:
-        json.dump(geoAnuncio, f, indent=4, ensure_ascii=False)
-
-
 def open_JSON():
     global anuncios
     with open('./output/anuncios.json') as f:
         anuncios = json.load(f)
 
-
-def main():
-    inicio = time.time()
-    open_JSON()
-    cont = False
+def finder(i, j):
     global final
-    geocoder = Nominatim(user_agent="GeomappingPontaGrossa")
-    localizador = RateLimiter(geocoder.geocode, min_delay_seconds=2)
-    for anuncio in anuncios:
-        
-        if cont:
-            break
-
-        if 'localizacao' in anuncio:
-            final.append(anuncio)
-            geoAnuncio.append(anuncio)
+    for k in range(i, j):
+        if 'localizacao' in anuncios[k]:
+            final.append(anuncios[k])
+            geoAnuncio.append(anuncios[k])
             continue
 
         enderecoFinder = ""
 
-        enderecoAnuncio = anuncio["enderecoAnuncio"]
-        enderecoMatch = anuncio["enderecoMatch"]
-        logradouro = anuncio['endereco']['logradouro']
-        bairro = anuncio['endereco']['bairro']
-        cidade = anuncio['endereco']['cidade']
+        enderecoAnuncio = anuncios[k]["enderecoAnuncio"]
+        enderecoMatch = anuncios[k]["enderecoMatch"]
+        logradouro = anuncios[k]['endereco']['logradouro']
+        bairro = anuncios[k]['endereco']['bairro']
+        cidade = anuncios[k]['endereco']['cidade']
         numero = None
         vila = None
-        if 'numero' in anuncio['endereco']:
-            numero = anuncio['endereco']['numero']
+        if 'numero' in anuncios[k]['endereco']:
+            numero = anuncios[k]['endereco']['numero']
 
-        if 'vila' in anuncio['endereco']:
-            vila = anuncio['endereco']['vila']
+        if 'vila' in anuncios[k]['endereco']:
+            vila = anuncios[k]['endereco']['vila']
 
         enderecoFinder = enderecoAnuncio
         tries = 0
@@ -141,14 +128,33 @@ def main():
 
         if coordinate:
             anuncioGeolocalizado = Anuncio(
-                anuncio, coordinate[0], coordinate[1])
+                anuncios[k], coordinate[0], coordinate[1])
             geoAnuncio.append(json.loads(anuncioGeolocalizado.toJSON()))
             anunciosToday.append(json.loads(anuncioGeolocalizado.toJSON()))
-            print(f'{anuncios.index(anuncio)} de {len(anuncios)} - Codigo: {anuncioGeolocalizado.ref} encontrado')
+            print(f'{k} de {len(anuncios)} - Codigo: {anuncioGeolocalizado.ref} encontrado')
         else:
-            notGeoAnuncio.append(anuncio)
-            print(f'{anuncios.index(anuncio)} de {len(anuncios)} - Codigo: {anuncio["ref"]} não encontrado')
+            notGeoAnuncio.append(anuncios[k])
+            print(f'{k} de {len(anuncios)} - Codigo: {anuncios[k]["ref"]} não encontrado')
 
+
+def main():
+    inicio = time.time()
+    open_JSON()
+
+    # n = int(len(anuncios) / 6)
+
+    thread1 = threading.Thread(target=finder, args=(0, len(anuncios)))
+
+    threads = []
+    threads.append(thread1)
+
+    for t in threads:
+        t.start()
+
+    for t in threads:
+        t.join()
+
+    global final
     final += geoAnuncio + notGeoAnuncio
     write_JSON()
 
