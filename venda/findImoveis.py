@@ -1,3 +1,4 @@
+# coding: utf-8
 import finders.findImConceito as findImConceito
 import finders.findTavarnaro as findTavarnaro
 import finders.findProcureImovel as findProcureImovel

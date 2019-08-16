@@ -1,3 +1,4 @@
+# coding: utf-8
 from pymongo import MongoClient
 import json
 import re as regex

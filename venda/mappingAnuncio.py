@@ -1,3 +1,4 @@
+# coding: utf-8
 import folium
 import json
 import locale

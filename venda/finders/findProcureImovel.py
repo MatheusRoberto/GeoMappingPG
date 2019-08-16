@@ -1,3 +1,4 @@
+# coding: utf-8
 import threading
 import json
 import re as regex

@@ -1,3 +1,4 @@
+# coding: utf-8
 import json
 import re as regex
 from datetime import datetime
