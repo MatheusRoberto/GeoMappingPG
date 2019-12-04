@@ -26,23 +26,27 @@ def open_JSON():
 
 
 def addPoint(anuncio, m):
-    ltdlng = anuncio['geoLocation']
+    lat = anuncio['localizacao']['coordinates'][0]
+    lng = anuncio['localizacao']['coordinates'][1]
+    ltdlng = (f'{lat}, {lng}')
     folium.Circle(
         location=ltdlng,
         radius=25,
-        popup=anuncio['endereco'],
+        popup=anuncio['enderecoAnuncio'],
         tooltip=anuncio['valor'],
         color=anuncio['cor']
     ).add_to(m)
 
 
 def addPointGroup(anuncio, m, group):
-    ltdlng = anuncio['geoLocation']
+    lat = anuncio['localizacao']['coordinates'][0]
+    lng = anuncio['localizacao']['coordinates'][1]
+    ltdlng = (f'{lat}, {lng}')
     folium.Circle(
         location=ltdlng,
         radius=25,
         popup=anuncio['link'],
-        tooltip=anuncio['endereco'],
+        tooltip=anuncio['enderecoAnuncio'],
         color=anuncio['cor']
     ).add_to(group)
 

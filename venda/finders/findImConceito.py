@@ -75,27 +75,26 @@ def imovel(i, j):
                 ref = re.html.find('h2 > span', first=True,
                                    _encoding="ISO-8859-1")
                 fichaTecnica = re.html.find(
-                    'body > div:nth-child(9) > div.imovelv2.imovelToSell > div > div.imovelInfoMain > div.p60.imobInfoBox.correctAlign > div:nth-child(1) > h5 > i', first=True,  _encoding="ISO-8859-1")
+                    'div.p60.imobInfoBox.correctAlign > div:nth-child(1) > div', first=True,  _encoding="ISO-8859-1")
                 if fichaTecnica is not None:
                     soup = BeautifulSoup(re.text, 'html.parser')
-                    select = 'body > div:nth-child(9) > div.imovelv2.imovelToSell > div > div.imovelInfoMain > div.p60.imobInfoBox.correctAlign > div:nth-child(1) > div > ul > li'
-                    element = soup.select(select)
+                    element = soup.select('div.p60.imobInfoBox.correctAlign > div:nth-child(1) > div > ul > li')
                     result = next(
                         (el for el in element if 'Bairro' in str(el)), None)
                     if result is not None:
-                        bairro = cleanhtml(str(result))
+                        bairro = result.text
                         bairro = extractBairro(bairro)
 
                     result = next(
                         (el for el in element if 'Vila' in str(el)), None)
                     if result is not None:
-                        vila = cleanhtml(str(result))
+                        vila = result.text
                         vila = extractVila(vila)
 
                     result = next(
                         (el for el in element if 'Cidade' in str(el)), None)
                     if result is not None:
-                        cidade = cleanhtml(str(result))
+                        cidade = result.text
                         cidade = extractCidade(cidade)
             except Exception as e:
                 print(f"Link: {d}\n Error: {e}")
@@ -252,8 +251,9 @@ def main():
         'https://www.conceitoimoveispg.com.br/busca/venda/cidade_ponta-grossa')
     soup = BeautifulSoup(r.text, 'html.parser')
 
-    npag = cleanhtml(str(soup.select(
-        'body > div.section.toSell > div > div.searchResults.searchResults3Col > div.paginacao > ul > li:nth-child(6) > a')))
+    elemeSelect = soup.select(
+        'body > div.section.toSell > div > div.searchResults.searchResults3Col > div.paginacao > ul > li:nth-child(6) > a')
+    npag = elemeSelect[0].text
     npag = npag.replace('[', '')
     npag = npag.replace(']', '')
     n = int(int(npag) / 4)

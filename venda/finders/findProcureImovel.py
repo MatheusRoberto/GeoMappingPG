@@ -228,7 +228,8 @@ def main():
         'https://procureimovel.com.br/venda/ponta-grossa-pr?fin=venda&t=&st=&cidade=ponta-grossa-pr&vMin=&vMax=&dts=&vagas=&ad=&o=0&page=1000')
     soup = BeautifulSoup(r.text, 'html.parser')
 
-    npag = cleanhtml(str(soup.select('h1')))
+    elemeSelect = soup.select('h1')
+    npag = elemeSelect[0].text
     npag = str(regex.findall(r"\d+", npag)
                [0]) + str(regex.findall(r"\d+", npag)[1])
     npag = math.ceil(int(npag)/30)

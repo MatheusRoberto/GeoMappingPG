@@ -12,6 +12,7 @@ session = HTMLSession()
 
 anuncios = []
 logradouros = []
+bairros = []
 
 
 class Endereco:
@@ -147,15 +148,21 @@ def cleanhtml(raw_html):
   cleantext = regex.sub(cleanr, '', raw_html)
   return cleantext
 
+def carregaBairros():
+    with open('./files/bairros.txt', 'r', encoding="UTF-8") as f:
+        for line in f:
+            bairros.append(line)
 
 def main():
 
     carregaLogradouros()
+    carregaBairros()
 
     r = session.get('https://www.tavarnaroconsultoria.com.br/imoveis/a-venda')
     soup = BeautifulSoup(r.text, 'html.parser')
     
-    npag = cleanhtml(str(soup.select('div.pagination-cell.hidden-lg-up > p')))
+    elemeSelect = soup.select('div.pagination-cell.hidden-lg-up > p')
+    npag = elemeSelect[0].text
     npag = int(regex.findall(r"\d+", npag)[1])
 
     n = int(npag / 4)

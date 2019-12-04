@@ -65,7 +65,7 @@ def criaArrayValores(anuncioA, anuncioB):
 def main():
     inicio = time.time()
     open_JSON()
-    
+
     print('Imobiliaria Conceito')
     anunciosConceito = findImConceito.main()
     print(f'Total encontrado - Imobiliaria Conceito: {len(anunciosConceito)}')
@@ -81,25 +81,6 @@ def main():
                 #anuncios.remove(findAnuncio)
                 # anuncios.append(anuncioE)
     # write_JSON()
-
-
-    print('----------------------------------')
-    print('Imobiliaria Tavarnaro')
-    anunciosTavarnaro = findTavarnaro.main()
-    print(f'Total encontrado - Imobiliaria Tavarnaro: {len(anunciosTavarnaro)}')
-    for anuncioE in anunciosTavarnaro:
-        anunciosToday.append(anuncioE)
-        findAnuncio = next(
-            (anuncio for anuncio in anuncios if anuncio['ref'] == anuncioE['ref']), None)
-        if(findAnuncio is None):
-            anuncios.append(anuncioE)
-        else:
-            if(compareAnuncio(findAnuncio, anuncioE)):
-                anuncios[anuncios.index(findAnuncio)]['valor'] = criaArrayValores(findAnuncio, anuncioE)
-                #anuncios.remove(findAnuncio)
-                #anuncios.append(anuncioE)
-    # write_JSON()
-
 
     print('----------------------------------')
     print('Procure Imovel')
