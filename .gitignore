@@ -139,4 +139,12 @@ dmypy.json
 .venv/
 
 # End of https://www.gitignore.io/api/linux,python
+
+# pasta output diaria
 venda/bd
+
+# arquivos locais
+*.csv
+*.tsv
+venda/solvingBD.py
+venda/solvingJSON.py

@@ -7,7 +7,7 @@ import numpy as np
 anuncios = []
 geolocalizados = []
 
-cliente = MongoClient('mongodb+srv://matheus:matheus14@cluster0-2zsqx.mongodb.net/test?retryWrites=true&w=majority')
+cliente = MongoClient('')
 banco = cliente.anuncios
 albumGeolocalizados = banco.anunciosGeorreferenciados
 

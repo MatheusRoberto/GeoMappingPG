@@ -82,7 +82,7 @@ def main():
                 # anuncios.append(anuncioE)
     # write_JSON()
 
-
+    '''
     print('----------------------------------')
     print('Imobiliaria Tavarnaro')
     anunciosTavarnaro = findTavarnaro.main()
@@ -99,7 +99,7 @@ def main():
                 #anuncios.remove(findAnuncio)
                 #anuncios.append(anuncioE)
     # write_JSON()
-
+    '''
 
     print('----------------------------------')
     print('Procure Imovel')

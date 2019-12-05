@@ -8,7 +8,8 @@ import threading
 anuncios = []
 geolocalizados = []
 
-cliente = MongoClient('localhost', 27017)
+# linha responsavel pela conexao com o mongo
+cliente = MongoClient('')
 banco = cliente.anuncios
 albumAnuncios = banco.anuncios
 albumGeolocalizados = banco.anunciosGeorreferenciados
