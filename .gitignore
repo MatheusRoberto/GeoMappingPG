@@ -142,6 +142,8 @@ dmypy.json
 
 # pasta output diaria
 venda/bd
+# pasta Date
+venda/output/dates/
 
 # arquivos locais
 *.csv
